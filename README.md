@@ -1,6 +1,6 @@
 # Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices
 
-This repository provides a demo implementation for the paper **"Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"**.
+This repository provides a demo implementation for the paper **["Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"](https://icml.cc/virtual/2026/poster/63522)**.
 
 Spik4lite is designed as a lightweight plug-and-play module for improving the accuracy-efficiency trade-off of spiking neural networks (SNNs), especially SNN-Transformer models deployed on commodity edge devices such as NVIDIA Jetson platforms.
 
@@ -76,32 +76,55 @@ Please download the datasets and update the corresponding dataset paths or confi
 
 ## Running Experiments
 
-Each baseline directory is self-contained. Enter the model directory first, activate the Conda environment, then run the dataset-specific training script.
+Each baseline directory is self-contained. Enter the model directory first, activate the Conda environment, then run the dataset-specific training or inference script.
+
+### General Workflow
+
+1. Update the dataset path and hyperparameters in the corresponding `.yml` file or command-line arguments.
+2. Train a Spik4lite-enabled model with `train.py`.
+3. Run inference/evaluation with `test.py` and pass the trained checkpoint through `--resume`.
+4. Optionally run the SOPs or power-analysis scripts in the dataset folder.
 
 ### Spikingformer + Spik4lite
 
 ```bash
 cd Spikingformer
 conda activate Spik4lite
-
-cd cifar10
-python train.py
 ```
 
-Other available tasks are located in:
+For CIFAR-10:
+
+```bash
+cd cifar10
+python train.py --config cifar10.yml
+python test.py --config cifar10.yml --resume path/to/model_best.pth.tar
+```
+
+For other datasets, enter the corresponding folder and use the same `train.py` / `test.py` workflow:
 
 - `Spikingformer/cifar100`
 - `Spikingformer/cifar10-dvs`
 - `Spikingformer/dvs128-gesture`
+
+For event-based datasets, the test scripts also support checkpoint-only evaluation, for example:
+
+```bash
+python test.py --resume path/to/checkpoint_max_test_acc1.pth --test-only
+```
 
 ### Spikformer + Spik4lite
 
 ```bash
 cd spikformer
 conda activate Spik4lite
+```
 
+For CIFAR-10:
+
+```bash
 cd cifar10
-python train.py
+python train.py --config cifar10.yml
+python test.py --config cifar10.yml --resume path/to/model_best.pth.tar
 ```
 
 Other available tasks are located in:
@@ -110,13 +133,24 @@ Other available tasks are located in:
 - `spikformer/cifar10dvs`
 - `spikformer/dvs128gesture`
 
+For event-based datasets:
+
+```bash
+python test.py --resume path/to/checkpoint_max_test_acc1.pth --test-only
+```
+
 ### Spike-Driven Transformer + Spik4lite
 
 ```bash
 cd Spike-Driven-Transformer
 conda activate Spik4lite
+```
 
-python cifar10/train.py
+For CIFAR-10:
+
+```bash
+python cifar10/train.py --config cifar10.yml
+python cifar10/test.py --config cifar10.yml --resume path/to/model_best.pth.tar
 ```
 
 Other available tasks are located in:
@@ -124,6 +158,38 @@ Other available tasks are located in:
 - `Spike-Driven-Transformer/cifar100`
 - `Spike-Driven-Transformer/cifar10-dvs`
 - `Spike-Driven-Transformer/dvs-gesture`
+
+For DVS128 Gesture:
+
+```bash
+python dvs-gesture/train.py
+python dvs-gesture/test.py --resume path/to/checkpoint_max_test_acc1.pth --test-only
+```
+
+### Customizing Runs via Command Line
+
+Most CIFAR scripts use an `argparse + YAML` configuration style. The `--config` argument loads defaults from the selected `.yml` file, and any later command-line flags override those defaults. This is useful for quick tests without modifying the original configuration files.
+
+For example, to change the number of epochs, learning rate, batch size, and dataset path:
+
+```bash
+python train.py --config cifar10.yml --epochs 20 --lr 0.0001 --batch-size 32 -data-dir /path/to/CIFAR10
+```
+
+To evaluate a specific checkpoint with a different validation batch size:
+
+```bash
+python test.py --config cifar10.yml --resume path/to/model_best.pth.tar --val-batch-size 64
+```
+
+Event-based dataset scripts expose similar command-line flags directly:
+
+```bash
+python train.py --epochs 20 --lr 0.0001 --batch-size 16 --data-path /path/to/DVS128Gesture
+python test.py --resume path/to/checkpoint_max_test_acc1.pth --test-only --batch-size 16
+```
+
+Note that this repository currently does not use Hydra. Therefore, use standard `argparse` flags such as `--epochs 20` and `--lr 0.0001` instead of Hydra-style overrides such as `epochs=20 lr=0.0001`.
 
 ### Energy and SOPs Evaluation
 
