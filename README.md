@@ -8,11 +8,7 @@ Spik4lite is designed as a lightweight plug-and-play module for improving the ac
 
 ## Abstract
 
-Modern SNNs, especially transformer-based architectures, can benefit from sparse spike-driven computation. In practice, however, commodity edge devices often cannot fully exploit theoretical neuromorphic sparsity, which may lead to unnecessary computation, latency, and energy cost.
-
-Spik4lite addresses this gap by refactoring channel-wise neuromorphic sparsity. It introduces an energy-aware gating mechanism to identify low-efficiency channels during training, then physically removes redundant channels while compensating for the eliminated spikes. This turns an SNN into a more compact model that can reduce real computation and energy consumption on commodity hardware while preserving model accuracy.
-
-The demo integrates Spik4lite into representative SNN-Transformer baselines, including **Spikformer**, **Spike-Driven Transformer**, and **Spikingformer**, and covers both static image datasets and neuromorphic event datasets.
+Recently, the spiking neural networks (SNNs) have shown great promise in enhancing AI task performance by utilizing the brain-inspired and energy-efficient computational paradigm via the binary (0/1) spikes. Modern SNNs, especially those based on transformers, often require FPGA accelerators or neuromorphic chips (e.g., Intel Loihi) to enable spike-driven computations. However, this domain-specific hardware is not always accessible on commodity edge devices like NVIDIA Jetsons, which may degrade SNNs' energy efficiency due to massive computational waste on inactive "0" spikes and finally undermine the usage boundary. This limitation raises an interesting question: is it possible to make SNNs edge-friendly and tame the computations mostly on active "1" spikes? In this paper, we present the answer yes and propose Spik4lite, which serves as a lightweight plug-and-play module to significantly improve SNN's performance between model accuracy and computational efficiency. The key is to refactor SNN's channel-wise neuromorphic sparsity by zeroing out low-efficiency channels while proactively compensating for the eliminated spikes. Different from prior methods mainly focusing on optimizing the theoretical synaptic operations, our design philosophy can evolve the SNNs into a physically compact manner, thus inherently saving more computational and energy costs. Extensive experiments based on real edge devices show that Spik4lite can be integrated into existing SNN baselines to further improve their accuracy-and-efficiency performance, guaranteeing the model accuracy while saving the computational and energy costs.
 
 ## Framework
 
@@ -22,10 +18,23 @@ The core pipeline of Spik4lite contains three stages:
 2. Accumulate channel statistics and determine the retained channels.
 3. Prune the network into a physically compact model for efficient inference.
 
-The repository also includes two paper figures for reference:
+The following figures provide an overview of the Spik4lite pipeline and module design.
 
-- `overview.pdf`: overview of the Spik4lite compression pipeline.
-- `model.pdf`: detailed design of the Spik4lite module.
+<p align="center">
+  <img src="pic/overview.png" width="90%" alt="Overview of the Spik4lite compression pipeline">
+</p>
+
+<p align="center">
+  <em>Overview of the Spik4lite compression pipeline.</em>
+</p>
+
+<p align="center">
+  <img src="pic/model.png" width="90%" alt="Detailed design of the Spik4lite module">
+</p>
+
+<p align="center">
+  <em>Detailed design of the Spik4lite module.</em>
+</p>
 
 ## Getting Started
 
@@ -132,8 +141,9 @@ Please run these scripts from the corresponding dataset directory, following the
 Spik4lite/
 |-- Spik4lite.py                  # Core Spik4lite layers, gating, and pruning utilities.
 |-- environment.yml               # Conda environment used by the demo.
-|-- overview.pdf                  # Overview figure of the compression pipeline.
-|-- model.pdf                     # Detailed figure of the Spik4lite module.
+|-- pic/
+|   |-- overview.png              # Overview figure of the compression pipeline.
+|   `-- model.png                 # Detailed figure of the Spik4lite module.
 |-- Spikingformer/                # Spikingformer baseline with Spik4lite demos.
 |   |-- cifar10/
 |   |-- cifar100/
