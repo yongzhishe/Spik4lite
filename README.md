@@ -1,6 +1,6 @@
-# Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices
+# Spik4lite ([ICML 2026](https://icml.cc/virtual/2026/poster/63522))
 
-This repository provides a demo implementation for the paper **["Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"](https://icml.cc/virtual/2026/poster/63522)**.
+This repository provides a demo implementation for the paper **"Spik4lite: Refactoring Neuromorphic Sparsity for Efficient Spiking Neural Networks on Commodity Edge Devices"**.
 
 Spik4lite is designed as a lightweight plug-and-play module for improving the accuracy-efficiency trade-off of spiking neural networks (SNNs), especially SNN-Transformer models deployed on commodity edge devices such as NVIDIA Jetson platforms.
 
@@ -235,4 +235,4 @@ Spik4lite/
 
 ## Acknowledgement
 
-This demo builds on representative SNN-Transformer baselines, including Spikformer, Spike-Driven Transformer, and Spikingformer. We thank the original authors for releasing their implementations.
+This demo builds on representative SNN-Transformer baselines, including [Spikformer](https://github.com/ZK-Zhou/spikformer), [Spike-Driven Transformer](https://github.com/BICLab/Spike-Driven-Transformer), and [Spikingformer](https://github.com/TheBrainLab/Spikingformer/). We thank the original authors for releasing their implementations.
