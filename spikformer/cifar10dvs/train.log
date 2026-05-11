@@ -1,0 +1,717 @@
+Full Execution Command:
+/home/.conda/envs/py12_backup/bin/python prue/train.py --epochs 96  --output /home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05 --experiment ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05 --lambda-energy 0.005 --pruning-interval 40 --gumbel-temp-start 1.0 --gumbel-temp-end 0.1 --mlp-max-prune-rate 0.15 --pe-max-prune-rate 0.05 
+Epoch: [30]  [512/562]  eta: 0:00:04  lr: 0.0007800072653447032  img/s: 195.0691633771866  reg_loss: 0.0035  temp: 0.4870  loss: 1.2065 (1.3152)  acc1: 75.0000 (71.0161)  acc5: 100.0000 (96.6131)  time: 0.0833  data: 0.0002  max mem: 4688
+Epoch: [30] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.2147 (1.2147)  acc1: 56.2500 (56.2500)  acc5: 93.7500 (93.7500)  time: 0.3253  data: 0.2986  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 63.4, Acc@5 = 97.0, loss = 1.0778103307599114
+Training time 0:27:11 max_test_acc1 71.1 test_acc5_at_max_test_acc1 96.7
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [31]  [  0/562]  eta: 0:04:53  lr: 0.0007663935860719322  img/s: 91.05902722183174  reg_loss: 0.0035  temp: 0.4754  loss: 1.2301 (1.2301)  acc1: 62.5000 (62.5000)  acc5: 100.0000 (100.0000)  time: 0.5224  data: 0.3467  max mem: 4688
+Epoch: [31]  [256/562]  eta: 0:00:26  lr: 0.0007663935860719322  img/s: 227.4660845750234  reg_loss: 0.0036  temp: 0.4754  loss: 1.1749 (1.2912)  acc1: 68.7500 (71.4008)  acc5: 93.7500 (96.7169)  time: 0.0855  data: 0.0003  max mem: 4688
+Epoch: [31]  [512/562]  eta: 0:00:04  lr: 0.0007663935860719322  img/s: 234.23605502249555  reg_loss: 0.0036  temp: 0.4754  loss: 1.2196 (1.2992)  acc1: 68.7500 (71.0892)  acc5: 100.0000 (96.6862)  time: 0.0933  data: 0.0002  max mem: 4688
+Epoch: [31] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:19  loss: 1.2628 (1.2628)  acc1: 50.0000 (50.0000)  acc5: 93.7500 (93.7500)  time: 0.3164  data: 0.2897  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.3, Acc@5 = 97.4, loss = 0.9023885708006602
+Training time 0:28:04 max_test_acc1 71.1 test_acc5_at_max_test_acc1 96.7
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [32]  [  0/562]  eta: 0:03:39  lr: 0.0007525  img/s: 198.67095731358924  reg_loss: 0.0036  temp: 0.4642  loss: 0.9033 (0.9033)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.3909  data: 0.3104  max mem: 4688
+Epoch: [32]  [256/562]  eta: 0:00:26  lr: 0.0007525  img/s: 202.10895576777708  reg_loss: 0.0036  temp: 0.4642  loss: 1.0842 (1.3014)  acc1: 75.0000 (71.5953)  acc5: 100.0000 (97.0331)  time: 0.0861  data: 0.0002  max mem: 4688
+Epoch: [32]  [512/562]  eta: 0:00:04  lr: 0.0007525  img/s: 221.37838167717334  reg_loss: 0.0036  temp: 0.4642  loss: 1.1156 (1.2915)  acc1: 75.0000 (71.7349)  acc5: 100.0000 (97.1004)  time: 0.0840  data: 0.0002  max mem: 4688
+Epoch: [32] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.0915 (1.0915)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3372  data: 0.3106  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 68.9, Acc@5 = 96.9, loss = 0.9281932687948621
+Training time 0:28:57 max_test_acc1 71.1 test_acc5_at_max_test_acc1 96.7
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [33]  [  0/562]  eta: 0:04:02  lr: 0.0007383413847288688  img/s: 211.54439796616367  reg_loss: 0.0036  temp: 0.4532  loss: 1.1475 (1.1475)  acc1: 75.0000 (75.0000)  acc5: 100.0000 (100.0000)  time: 0.4317  data: 0.3561  max mem: 4688
+Epoch: [33]  [256/562]  eta: 0:00:26  lr: 0.0007383413847288688  img/s: 222.9900780860608  reg_loss: 0.0036  temp: 0.4532  loss: 1.3624 (1.3093)  acc1: 68.7500 (71.8385)  acc5: 93.7500 (97.1790)  time: 0.0992  data: 0.0005  max mem: 4688
+Epoch: [33]  [512/562]  eta: 0:00:04  lr: 0.0007383413847288688  img/s: 141.56614337005269  reg_loss: 0.0036  temp: 0.4532  loss: 1.1908 (1.2803)  acc1: 75.0000 (72.3075)  acc5: 100.0000 (97.2710)  time: 0.0807  data: 0.0002  max mem: 4688
+Epoch: [33] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.2673 (1.2673)  acc1: 56.2500 (56.2500)  acc5: 100.0000 (100.0000)  time: 0.3420  data: 0.3154  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.6, Acc@5 = 97.8, loss = 0.8773253328270383
+Training time 0:29:51 max_test_acc1 71.6 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [34]  [  0/562]  eta: 0:03:44  lr: 0.0007239329016584056  img/s: 198.3925643655972  reg_loss: 0.0035  temp: 0.4424  loss: 0.9821 (0.9821)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.3991  data: 0.3184  max mem: 4688
+Epoch: [34]  [256/562]  eta: 0:00:25  lr: 0.0007239329016584056  img/s: 230.19065912957578  reg_loss: 0.0036  temp: 0.4424  loss: 1.1646 (1.2673)  acc1: 75.0000 (72.8842)  acc5: 100.0000 (97.2763)  time: 0.0830  data: 0.0002  max mem: 4688
+Epoch: [34]  [512/562]  eta: 0:00:04  lr: 0.0007239329016584056  img/s: 203.32076203402977  reg_loss: 0.0036  temp: 0.4424  loss: 1.3790 (1.2687)  acc1: 68.7500 (73.0994)  acc5: 93.7500 (97.1979)  time: 0.0832  data: 0.0002  max mem: 4688
+Epoch: [34] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.4344 (1.4344)  acc1: 43.7500 (43.7500)  acc5: 87.5000 (87.5000)  time: 0.3346  data: 0.3078  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.1, Acc@5 = 97.3, loss = 0.8875014848179288
+Training time 0:30:43 max_test_acc1 71.6 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [35]  [  0/562]  eta: 0:04:17  lr: 0.0007092899797531754  img/s: 90.49114153453245  reg_loss: 0.0036  temp: 0.4319  loss: 1.1365 (1.1365)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4586  data: 0.2818  max mem: 4688
+Epoch: [35]  [256/562]  eta: 0:00:26  lr: 0.0007092899797531754  img/s: 228.3935064493074  reg_loss: 0.0036  temp: 0.4319  loss: 1.1815 (1.2470)  acc1: 81.2500 (74.0516)  acc5: 100.0000 (97.3735)  time: 0.0756  data: 0.0002  max mem: 4688
+Epoch: [35]  [512/562]  eta: 0:00:04  lr: 0.0007092899797531754  img/s: 197.92038222196007  reg_loss: 0.0036  temp: 0.4319  loss: 1.0839 (1.2399)  acc1: 75.0000 (74.1959)  acc5: 100.0000 (97.2588)  time: 0.0839  data: 0.0002  max mem: 4688
+Epoch: [35] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.2218 (1.2218)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3370  data: 0.3103  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.2, Acc@5 = 97.1, loss = 0.920515574633129
+Training time 0:31:35 max_test_acc1 71.6 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [36]  [  0/562]  eta: 0:03:52  lr: 0.0006944282990207195  img/s: 119.53904990585984  reg_loss: 0.0036  temp: 0.4217  loss: 0.8913 (0.8913)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4138  data: 0.2800  max mem: 4688
+Epoch: [36]  [256/562]  eta: 0:00:27  lr: 0.0006944282990207195  img/s: 117.54615660825166  reg_loss: 0.0036  temp: 0.4217  loss: 1.0813 (1.1827)  acc1: 75.0000 (76.8482)  acc5: 100.0000 (97.9329)  time: 0.0944  data: 0.0002  max mem: 4688
+Epoch: [36]  [512/562]  eta: 0:00:04  lr: 0.0006944282990207195  img/s: 247.82531177180925  reg_loss: 0.0036  temp: 0.4217  loss: 1.1738 (1.2361)  acc1: 75.0000 (74.6711)  acc5: 100.0000 (97.3319)  time: 0.0858  data: 0.0003  max mem: 4688
+Epoch: [36] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.2562 (1.2562)  acc1: 50.0000 (50.0000)  acc5: 93.7500 (93.7500)  time: 0.3845  data: 0.3558  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.4, Acc@5 = 96.8, loss = 0.9657950845975725
+Training time 0:32:30 max_test_acc1 71.6 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [37]  [  0/562]  eta: 0:04:26  lr: 0.0006793637737210106  img/s: 90.09848302787583  reg_loss: 0.0036  temp: 0.4117  loss: 1.2084 (1.2084)  acc1: 68.7500 (68.7500)  acc5: 100.0000 (100.0000)  time: 0.4746  data: 0.2970  max mem: 4688
+Epoch: [37]  [256/562]  eta: 0:00:27  lr: 0.0006793637737210106  img/s: 202.44489761442208  reg_loss: 0.0036  temp: 0.4117  loss: 1.0895 (1.2033)  acc1: 81.2500 (75.4134)  acc5: 100.0000 (97.5195)  time: 0.0850  data: 0.0003  max mem: 4688
+Epoch: [37]  [512/562]  eta: 0:00:04  lr: 0.0006793637737210106  img/s: 175.29356880343332  reg_loss: 0.0036  temp: 0.4117  loss: 1.1132 (1.2328)  acc1: 75.0000 (74.9269)  acc5: 100.0000 (97.5634)  time: 0.0917  data: 0.0002  max mem: 4688
+Epoch: [37] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:18  loss: 1.4894 (1.4894)  acc1: 56.2500 (56.2500)  acc5: 81.2500 (81.2500)  time: 0.2948  data: 0.2682  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.4, Acc@5 = 97.0, loss = 0.9285537188961392
+Training time 0:33:22 max_test_acc1 71.6 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [38]  [  0/562]  eta: 0:04:26  lr: 0.000664112535325065  img/s: 136.10109495194502  reg_loss: 0.0036  temp: 0.4019  loss: 0.9069 (0.9069)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.4750  data: 0.3574  max mem: 4688
+Epoch: [38]  [256/562]  eta: 0:00:28  lr: 0.000664112535325065  img/s: 234.21398257761894  reg_loss: 0.0036  temp: 0.4019  loss: 1.1134 (1.2632)  acc1: 75.0000 (75.1946)  acc5: 100.0000 (97.0088)  time: 0.0987  data: 0.0008  max mem: 4688
+Epoch: [38]  [512/562]  eta: 0:00:04  lr: 0.000664112535325065  img/s: 215.16216467510316  reg_loss: 0.0036  temp: 0.4019  loss: 0.9977 (1.2309)  acc1: 75.0000 (76.1818)  acc5: 100.0000 (97.4781)  time: 0.0879  data: 0.0002  max mem: 4688
+Epoch: [38] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.0652 (1.0652)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.4078  data: 0.3811  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.1, Acc@5 = 98.0, loss = 0.876881498192984
+Training time 0:34:17 max_test_acc1 72.1 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [39]  [  0/562]  eta: 0:04:19  lr: 0.0006486909152409589  img/s: 143.05967422516025  reg_loss: 0.0036  temp: 0.3924  loss: 0.9539 (0.9539)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.4612  data: 0.3493  max mem: 4688
+Epoch: [39]  [256/562]  eta: 0:00:25  lr: 0.0006486909152409589  img/s: 227.85223815732292  reg_loss: 0.0036  temp: 0.3924  loss: 1.0533 (1.1857)  acc1: 75.0000 (77.0671)  acc5: 100.0000 (97.7626)  time: 0.0890  data: 0.0003  max mem: 4688
+Epoch: [39]  [512/562]  eta: 0:00:04  lr: 0.0006486909152409589  img/s: 226.91461901300107  reg_loss: 0.0036  temp: 0.3924  loss: 0.9655 (1.2121)  acc1: 81.2500 (76.1940)  acc5: 100.0000 (97.6365)  time: 0.0901  data: 0.0003  max mem: 4688
+Epoch: [39] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:25  loss: 0.9613 (0.9613)  acc1: 56.2500 (56.2500)  acc5: 87.5000 (87.5000)  time: 0.4008  data: 0.3713  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 66.9, Acc@5 = 96.4, loss = 0.981276695217405
+Training time 0:35:10 max_test_acc1 72.1 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [40]  [  0/562]  eta: 0:03:14  lr: 0.0006331154273257478  img/s: 203.6446793854445  reg_loss: 0.0036  temp: 0.3831  loss: 0.9455 (0.9455)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.3456  data: 0.2671  max mem: 4688
+Epoch: [40]  [256/562]  eta: 0:00:26  lr: 0.0006331154273257478  img/s: 113.10603427789398  reg_loss: 0.0036  temp: 0.3831  loss: 0.9450 (1.1984)  acc1: 87.5000 (76.3132)  acc5: 100.0000 (97.6654)  time: 0.0989  data: 0.0005  max mem: 4688
+Epoch: [40]  [512/562]  eta: 0:00:04  lr: 0.0006331154273257478  img/s: 227.95362724484283  reg_loss: 0.0036  temp: 0.3831  loss: 1.1051 (1.2255)  acc1: 75.0000 (76.1940)  acc5: 100.0000 (97.3562)  time: 0.0910  data: 0.0002  max mem: 4688
+Epoch: [40] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.2153 (1.2153)  acc1: 56.2500 (56.2500)  acc5: 100.0000 (100.0000)  time: 0.3332  data: 0.3065  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 69.7, Acc@5 = 97.0, loss = 0.9454670240954747
+Training time 0:36:02 max_test_acc1 72.1 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [41]  [  0/562]  eta: 0:03:38  lr: 0.0006174027502020148  img/s: 176.3702076215506  reg_loss: 0.0036  temp: 0.3740  loss: 1.2474 (1.2474)  acc1: 68.7500 (68.7500)  acc5: 100.0000 (100.0000)  time: 0.3882  data: 0.2974  max mem: 4688
+Epoch: [41]  [256/562]  eta: 0:00:27  lr: 0.0006174027502020148  img/s: 173.668644657742  reg_loss: 0.0036  temp: 0.3740  loss: 1.0483 (1.1920)  acc1: 81.2500 (77.9426)  acc5: 100.0000 (97.6897)  time: 0.0934  data: 0.0005  max mem: 4688
+Epoch: [41]  [512/562]  eta: 0:00:04  lr: 0.0006174027502020148  img/s: 231.81835579244807  reg_loss: 0.0036  temp: 0.3740  loss: 1.0110 (1.1924)  acc1: 75.0000 (77.4366)  acc5: 100.0000 (97.6486)  time: 0.0842  data: 0.0002  max mem: 4688
+Epoch: [41] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2582 (1.2582)  acc1: 56.2500 (56.2500)  acc5: 87.5000 (87.5000)  time: 0.3581  data: 0.3292  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 69.0, Acc@5 = 97.0, loss = 0.9457384948692624
+Training time 0:36:56 max_test_acc1 72.1 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [42]  [  0/562]  eta: 0:04:12  lr: 0.0006015697093979835  img/s: 134.29131964316446  reg_loss: 0.0036  temp: 0.3652  loss: 1.1764 (1.1764)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4497  data: 0.3305  max mem: 4688
+Epoch: [42]  [256/562]  eta: 0:00:26  lr: 0.0006015697093979835  img/s: 123.16536115169178  reg_loss: 0.0036  temp: 0.3652  loss: 1.2000 (1.1250)  acc1: 75.0000 (78.6965)  acc5: 100.0000 (97.8599)  time: 0.1070  data: 0.0004  max mem: 4688
+Epoch: [42]  [512/562]  eta: 0:00:04  lr: 0.0006015697093979835  img/s: 139.71524339719275  reg_loss: 0.0036  temp: 0.3652  loss: 1.1547 (1.1580)  acc1: 81.2500 (78.0702)  acc5: 100.0000 (97.8070)  time: 0.0969  data: 0.0003  max mem: 4688
+Epoch: [42] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.3304 (1.3304)  acc1: 56.2500 (56.2500)  acc5: 87.5000 (87.5000)  time: 0.3438  data: 0.3172  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.6, Acc@5 = 97.3, loss = 0.8641844505355472
+Training time 0:37:48 max_test_acc1 72.1 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [43]  [  0/562]  eta: 0:04:12  lr: 0.0005856332593303215  img/s: 159.3489732727998  reg_loss: 0.0036  temp: 0.3565  loss: 0.9876 (0.9876)  acc1: 75.0000 (75.0000)  acc5: 100.0000 (100.0000)  time: 0.4493  data: 0.3488  max mem: 4688
+Epoch: [43]  [256/562]  eta: 0:00:26  lr: 0.0005856332593303215  img/s: 192.83823842117664  reg_loss: 0.0036  temp: 0.3565  loss: 1.0734 (1.1746)  acc1: 81.2500 (78.5019)  acc5: 100.0000 (97.4951)  time: 0.0919  data: 0.0002  max mem: 4688
+Epoch: [43]  [512/562]  eta: 0:00:04  lr: 0.0005856332593303215  img/s: 190.533263679106  reg_loss: 0.0036  temp: 0.3565  loss: 1.1540 (1.1645)  acc1: 75.0000 (78.6062)  acc5: 100.0000 (97.8192)  time: 0.0893  data: 0.0002  max mem: 4688
+Epoch: [43] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.0098 (1.0098)  acc1: 75.0000 (75.0000)  acc5: 87.5000 (87.5000)  time: 0.3629  data: 0.3362  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 72.7, Acc@5 = 96.9, loss = 0.8693783548143175
+Training time 0:38:41 max_test_acc1 72.7 test_acc5_at_max_test_acc1 96.9
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [44]  [  0/562]  eta: 0:05:09  lr: 0.0005696104651489257  img/s: 113.75019958743455  reg_loss: 0.0036  temp: 0.3481  loss: 0.9396 (0.9396)  acc1: 75.0000 (75.0000)  acc5: 100.0000 (100.0000)  time: 0.5502  data: 0.4095  max mem: 4688
+Epoch: [44]  [256/562]  eta: 0:00:27  lr: 0.0005696104651489257  img/s: 223.82528591487758  reg_loss: 0.0036  temp: 0.3481  loss: 1.1099 (1.1605)  acc1: 75.0000 (79.6693)  acc5: 100.0000 (98.4436)  time: 0.0910  data: 0.0002  max mem: 4688
+Epoch: [44]  [512/562]  eta: 0:00:04  lr: 0.0005696104651489257  img/s: 201.26158450820384  reg_loss: 0.0036  temp: 0.3481  loss: 1.0463 (1.1802)  acc1: 81.2500 (78.1555)  acc5: 100.0000 (98.0385)  time: 0.0918  data: 0.0002  max mem: 4688
+Epoch: [44] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.0017 (1.0017)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3635  data: 0.3369  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.2, Acc@5 = 97.3, loss = 0.9189170967964899
+Training time 0:39:35 max_test_acc1 72.7 test_acc5_at_max_test_acc1 96.9
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [45]  [  0/562]  eta: 0:03:58  lr: 0.0005535184844631324  img/s: 171.6958391645069  reg_loss: 0.0036  temp: 0.3398  loss: 1.2280 (1.2280)  acc1: 75.0000 (75.0000)  acc5: 100.0000 (100.0000)  time: 0.4237  data: 0.3305  max mem: 4688
+Epoch: [45]  [256/562]  eta: 0:00:27  lr: 0.0005535184844631324  img/s: 153.4821997886754  reg_loss: 0.0036  temp: 0.3398  loss: 1.1779 (1.1507)  acc1: 75.0000 (78.4290)  acc5: 100.0000 (98.1518)  time: 0.0829  data: 0.0002  max mem: 4688
+Epoch: [45]  [512/562]  eta: 0:00:04  lr: 0.0005535184844631324  img/s: 126.82940768473354  reg_loss: 0.0036  temp: 0.3398  loss: 1.0272 (1.1505)  acc1: 81.2500 (78.7646)  acc5: 100.0000 (97.9410)  time: 0.0943  data: 0.0002  max mem: 4688
+Epoch: [45] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:19  loss: 1.1090 (1.1090)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3119  data: 0.2852  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.1, Acc@5 = 97.5, loss = 0.9044157172006274
+Training time 0:40:29 max_test_acc1 72.7 test_acc5_at_max_test_acc1 96.9
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [46]  [  0/562]  eta: 0:03:54  lr: 0.000537374548968921  img/s: 170.35473782543357  reg_loss: 0.0036  temp: 0.3318  loss: 0.6928 (0.6928)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4177  data: 0.3237  max mem: 4688
+Epoch: [46]  [256/562]  eta: 0:00:26  lr: 0.000537374548968921  img/s: 113.04163796080282  reg_loss: 0.0036  temp: 0.3318  loss: 1.0280 (1.1692)  acc1: 81.2500 (78.9397)  acc5: 100.0000 (97.8599)  time: 0.0842  data: 0.0002  max mem: 4688
+Epoch: [46]  [512/562]  eta: 0:00:04  lr: 0.000537374548968921  img/s: 180.27272116756166  reg_loss: 0.0036  temp: 0.3318  loss: 1.0331 (1.1544)  acc1: 75.0000 (79.0083)  acc5: 100.0000 (97.8558)  time: 0.0934  data: 0.0006  max mem: 4688
+Epoch: [46] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.2848 (1.2848)  acc1: 62.5000 (62.5000)  acc5: 87.5000 (87.5000)  time: 0.3927  data: 0.3661  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.3, Acc@5 = 97.2, loss = 0.920218669232868
+Training time 0:41:22 max_test_acc1 72.7 test_acc5_at_max_test_acc1 96.9
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [47]  [  0/562]  eta: 0:04:35  lr: 0.0005211959459967793  img/s: 104.91284316898117  reg_loss: 0.0036  temp: 0.3239  loss: 0.8616 (0.8616)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4896  data: 0.3371  max mem: 4688
+Epoch: [47]  [256/562]  eta: 0:00:27  lr: 0.0005211959459967793  img/s: 201.50331040322362  reg_loss: 0.0036  temp: 0.3239  loss: 1.0239 (1.1131)  acc1: 81.2500 (80.8366)  acc5: 100.0000 (98.2004)  time: 0.0811  data: 0.0002  max mem: 4688
+Epoch: [47]  [512/562]  eta: 0:00:04  lr: 0.0005211959459967793  img/s: 155.71513694625173  reg_loss: 0.0036  temp: 0.3239  loss: 1.0544 (1.1186)  acc1: 81.2500 (80.3363)  acc5: 100.0000 (98.1969)  time: 0.0870  data: 0.0003  max mem: 4688
+Epoch: [47] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.1012 (1.1012)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3861  data: 0.3594  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.1, Acc@5 = 97.4, loss = 0.825773772266176
+Training time 0:42:14 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [48]  [  0/562]  eta: 0:04:02  lr: 0.000505  img/s: 211.13707624785667  reg_loss: 0.0036  temp: 0.3162  loss: 0.5939 (0.5939)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4323  data: 0.3565  max mem: 4688
+Epoch: [48]  [256/562]  eta: 0:00:27  lr: 0.000505  img/s: 183.36155981551508  reg_loss: 0.0036  temp: 0.3162  loss: 0.9833 (1.1191)  acc1: 81.2500 (80.8123)  acc5: 100.0000 (98.7111)  time: 0.0769  data: 0.0003  max mem: 4688
+Epoch: [48]  [512/562]  eta: 0:00:04  lr: 0.000505  img/s: 218.53514173600144  reg_loss: 0.0036  temp: 0.3162  loss: 0.9701 (1.1134)  acc1: 81.2500 (80.7261)  acc5: 100.0000 (98.6355)  time: 0.0831  data: 0.0002  max mem: 4688
+Epoch: [48] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:19  loss: 1.3349 (1.3349)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3160  data: 0.2865  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 73.2, Acc@5 = 97.6, loss = 0.8473424533056835
+Training time 0:43:06 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [49]  [  0/562]  eta: 0:03:58  lr: 0.0004888040540032209  img/s: 181.6713833626153  reg_loss: 0.0036  temp: 0.3087  loss: 0.9878 (0.9878)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.4241  data: 0.3360  max mem: 4688
+Epoch: [49]  [256/562]  eta: 0:00:26  lr: 0.0004888040540032209  img/s: 226.30017400218514  reg_loss: 0.0036  temp: 0.3087  loss: 0.9176 (1.1212)  acc1: 81.2500 (81.8337)  acc5: 100.0000 (98.5165)  time: 0.0716  data: 0.0002  max mem: 4688
+Epoch: [49]  [512/562]  eta: 0:00:04  lr: 0.0004888040540032209  img/s: 211.36184084130429  reg_loss: 0.0036  temp: 0.3087  loss: 1.0142 (1.1171)  acc1: 81.2500 (81.4937)  acc5: 100.0000 (98.5380)  time: 0.0889  data: 0.0002  max mem: 4688
+Epoch: [49] Total time: 0:00:49
+*** Epoch 49: Executing Physical Pruning ***
+DEBUG: SPS avg_probs is tensor([0.8001, 0.9905, 0.2580, 0.2820, 0.9978, 0.9654, 0.4873, 0.9863, 0.9595,
+        0.9853, 0.5768, 0.3192, 0.5558, 0.9928, 0.2398, 0.5426, 0.4471, 0.7656,
+        0.5227, 0.9923, 0.9867, 0.9749, 0.9521, 0.9736, 0.2229, 0.3423, 0.9934,
+        0.3401, 0.9696, 0.3292, 0.9832, 0.9531, 0.3572, 0.9851, 0.9599, 0.3817,
+        0.6121, 0.9898, 0.9006, 0.3118, 0.9021, 0.5690, 0.9904, 0.2977, 0.4810,
+        0.1784, 0.9857, 0.2565, 0.5275, 0.9847, 0.1103, 0.3391, 0.1435, 0.9866,
+        0.4173, 0.2590, 0.3262, 0.5482, 0.9561, 0.8947, 0.4056, 0.4892, 0.9716,
+        0.7319], device='cuda:0')!!!!!!!!!
+DEBUG: SPS avg_probs is tensor([0.2195, 0.1479, 0.0943, 0.7205, 0.7607, 0.9875, 0.1629, 0.9932, 0.1184,
+        0.1870, 0.9982, 0.2955, 0.9978, 0.1019, 0.9948, 0.5242, 0.1299, 0.3838,
+        0.9541, 0.9954, 0.2063, 0.9974, 0.5450, 0.9900, 0.7088, 0.1024, 0.1013,
+        0.0987, 0.9943, 0.2518, 0.2132, 0.0197, 0.2565, 0.1559, 0.9989, 0.0746,
+        0.0967, 0.8699, 0.0843, 0.3001, 0.0446, 0.1363, 0.2913, 0.1684, 0.9993,
+        0.3390, 0.5139, 0.9895, 0.3320, 0.9981, 0.9941, 0.3997, 0.8687, 0.9954,
+        0.1478, 0.7085, 0.2714, 0.9972, 0.1736, 0.9588, 0.9982, 0.0875, 0.5314,
+        0.2358, 0.9990, 0.9904, 0.9972, 0.9046, 0.5949, 0.2466, 0.3956, 0.9791,
+        0.4803, 0.9977, 0.1145, 0.9810, 0.1077, 0.0871, 0.4643, 0.3143, 0.1947,
+        0.0384, 0.0779, 0.0921, 0.0490, 0.2925, 0.1883, 0.9589, 0.9099, 0.9924,
+        0.8172, 0.8014, 0.0351, 0.0301, 0.3078, 0.7758, 0.9834, 0.5192, 0.5358,
+        0.2220, 0.0419, 0.9871, 0.0263, 0.9973, 0.4570, 0.9637, 0.0525, 0.2432,
+        0.7777, 0.0862, 0.3593, 0.9974, 0.1610, 0.3724, 0.2328, 0.1166, 0.9876,
+        0.2514, 0.9533, 0.9778, 0.9393, 0.9252, 0.9140, 0.1540, 0.9844, 0.0520,
+        0.1475, 0.4150], device='cuda:0')!!!!!!!!!
+DEBUG: MLP avg_probs is tensor([0.0084, 0.8978, 0.2589,  ..., 0.9611, 0.7347, 0.9240], device='cuda:0')!!!!!!!!!
+DEBUG: MLP avg_probs is tensor([0.8042, 0.8445, 0.1202,  ..., 0.3843, 0.2833, 0.3763], device='cuda:0')!!!!!!!!!
+Global Pruning: Keeping 240 channels
+Test:  [ 0/63]  eta: 0:00:23  loss: 2.0080 (2.0080)  acc1: 31.2500 (31.2500)  acc5: 75.0000 (75.0000)  time: 0.3673  data: 0.2869  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 65.5, Acc@5 = 96.4, loss = 1.0362400781540644
+Training time 0:44:00 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [50]  [  0/562]  eta: 0:04:02  lr: 0.0004726254510310792  img/s: 123.57518584468411  reg_loss: 0.0038  temp: 0.3014  loss: 2.0880 (2.0880)  acc1: 37.5000 (37.5000)  acc5: 81.2500 (81.2500)  time: 0.4309  data: 0.3014  max mem: 4688
+Epoch: [50]  [256/562]  eta: 0:00:27  lr: 0.0004726254510310792  img/s: 240.73460631997332  reg_loss: 0.0038  temp: 0.3014  loss: 0.9291 (1.1622)  acc1: 81.2500 (78.4290)  acc5: 100.0000 (97.9815)  time: 0.0736  data: 0.0002  max mem: 4688
+Epoch: [50]  [512/562]  eta: 0:00:04  lr: 0.0004726254510310792  img/s: 194.31793279977762  reg_loss: 0.0038  temp: 0.3014  loss: 1.0455 (1.1543)  acc1: 75.0000 (78.7159)  acc5: 100.0000 (98.0507)  time: 0.0943  data: 0.0004  max mem: 4688
+Epoch: [50] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.0998 (1.0998)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3793  data: 0.3491  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 73.0, Acc@5 = 97.5, loss = 0.8604339157778119
+Training time 0:44:54 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [51]  [  0/562]  eta: 0:03:19  lr: 0.0004564815155368676  img/s: 204.71003953340818  reg_loss: 0.0038  temp: 0.2943  loss: 0.9078 (0.9078)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3556  data: 0.2775  max mem: 4688
+Epoch: [51]  [256/562]  eta: 0:00:27  lr: 0.0004564815155368676  img/s: 223.5792068817319  reg_loss: 0.0038  temp: 0.2943  loss: 1.0212 (1.1095)  acc1: 81.2500 (80.9582)  acc5: 100.0000 (98.1274)  time: 0.0748  data: 0.0002  max mem: 4688
+Epoch: [51]  [512/562]  eta: 0:00:04  lr: 0.0004564815155368676  img/s: 200.09560384514467  reg_loss: 0.0038  temp: 0.2943  loss: 0.9251 (1.1402)  acc1: 87.5000 (80.2875)  acc5: 100.0000 (97.9776)  time: 0.0948  data: 0.0002  max mem: 4688
+Epoch: [51] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:22  loss: 0.8300 (0.8300)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3504  data: 0.3188  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.0, Acc@5 = 97.5, loss = 0.9362895133949461
+Training time 0:45:48 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [52]  [  0/562]  eta: 0:04:19  lr: 0.00044038953485107447  img/s: 198.1009148042425  reg_loss: 0.0038  temp: 0.2873  loss: 0.9303 (0.9303)  acc1: 81.2500 (81.2500)  acc5: 93.7500 (93.7500)  time: 0.4623  data: 0.3815  max mem: 4688
+Epoch: [52]  [256/562]  eta: 0:00:27  lr: 0.00044038953485107447  img/s: 224.7186833425419  reg_loss: 0.0037  temp: 0.2873  loss: 0.9123 (1.0980)  acc1: 87.5000 (81.2986)  acc5: 100.0000 (98.3706)  time: 0.0781  data: 0.0002  max mem: 4688
+Epoch: [52]  [512/562]  eta: 0:00:04  lr: 0.00044038953485107447  img/s: 183.69834748070875  reg_loss: 0.0038  temp: 0.2873  loss: 0.9640 (1.1017)  acc1: 81.2500 (80.7139)  acc5: 100.0000 (98.2822)  time: 0.0831  data: 0.0002  max mem: 4688
+Epoch: [52] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.3787 (1.3787)  acc1: 56.2500 (56.2500)  acc5: 93.7500 (93.7500)  time: 0.3545  data: 0.3277  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.0, Acc@5 = 97.4, loss = 0.8368320564428965
+Training time 0:46:40 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [53]  [  0/562]  eta: 0:03:44  lr: 0.00042436674066967866  img/s: 195.70116209556303  reg_loss: 0.0038  temp: 0.2805  loss: 1.1436 (1.1436)  acc1: 75.0000 (75.0000)  acc5: 93.7500 (93.7500)  time: 0.3991  data: 0.3173  max mem: 4688
+Epoch: [53]  [256/562]  eta: 0:00:28  lr: 0.00042436674066967866  img/s: 213.381358465129  reg_loss: 0.0037  temp: 0.2805  loss: 0.9216 (1.1174)  acc1: 87.5000 (81.1770)  acc5: 100.0000 (98.3463)  time: 0.0983  data: 0.0046  max mem: 4688
+Epoch: [53]  [512/562]  eta: 0:00:04  lr: 0.00042436674066967866  img/s: 204.0273013884793  reg_loss: 0.0037  temp: 0.2805  loss: 0.9987 (1.1081)  acc1: 81.2500 (81.5789)  acc5: 100.0000 (98.3918)  time: 0.0832  data: 0.0002  max mem: 4688
+Epoch: [53] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:21  loss: 0.9818 (0.9818)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3408  data: 0.3142  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.0, Acc@5 = 96.9, loss = 0.9165646774428231
+Training time 0:47:34 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [54]  [  0/562]  eta: 0:04:41  lr: 0.00040843029060201656  img/s: 110.07732936166862  reg_loss: 0.0038  temp: 0.2738  loss: 0.7025 (0.7025)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.5012  data: 0.3559  max mem: 4688
+Epoch: [54]  [256/562]  eta: 0:00:27  lr: 0.00040843029060201656  img/s: 239.03935257743709  reg_loss: 0.0038  temp: 0.2738  loss: 0.9746 (1.1103)  acc1: 87.5000 (81.7364)  acc5: 100.0000 (98.2733)  time: 0.0858  data: 0.0002  max mem: 4688
+Epoch: [54]  [512/562]  eta: 0:00:04  lr: 0.00040843029060201656  img/s: 124.08334488949535  reg_loss: 0.0038  temp: 0.2738  loss: 1.0659 (1.1162)  acc1: 75.0000 (81.3353)  acc5: 100.0000 (98.3918)  time: 0.1015  data: 0.0005  max mem: 4688
+Epoch: [54] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.1057 (1.1057)  acc1: 62.5000 (62.5000)  acc5: 87.5000 (87.5000)  time: 0.4123  data: 0.3827  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 73.0, Acc@5 = 97.0, loss = 0.877091032645059
+Training time 0:48:28 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [55]  [  0/562]  eta: 0:04:10  lr: 0.0003925972497979852  img/s: 135.17122582698354  reg_loss: 0.0038  temp: 0.2674  loss: 1.1531 (1.1531)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4463  data: 0.3279  max mem: 4688
+Epoch: [55]  [256/562]  eta: 0:00:27  lr: 0.0003925972497979852  img/s: 158.47184367436094  reg_loss: 0.0037  temp: 0.2674  loss: 0.9233 (1.0861)  acc1: 81.2500 (82.2228)  acc5: 100.0000 (98.2733)  time: 0.0913  data: 0.0002  max mem: 4688
+Epoch: [55]  [512/562]  eta: 0:00:04  lr: 0.0003925972497979852  img/s: 198.43480163576203  reg_loss: 0.0038  temp: 0.2674  loss: 0.9736 (1.1022)  acc1: 81.2500 (81.8713)  acc5: 100.0000 (98.3796)  time: 0.0970  data: 0.0004  max mem: 4688
+Epoch: [55] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.1718 (1.1718)  acc1: 56.2500 (56.2500)  acc5: 100.0000 (100.0000)  time: 0.3754  data: 0.3489  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 71.9, Acc@5 = 97.1, loss = 0.8881117029795571
+Training time 0:49:21 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [56]  [  0/562]  eta: 0:04:19  lr: 0.00037688457267425233  img/s: 171.39108271145233  reg_loss: 0.0037  temp: 0.2610  loss: 0.7022 (0.7022)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4616  data: 0.3683  max mem: 4688
+Epoch: [56]  [256/562]  eta: 0:00:28  lr: 0.00037688457267425233  img/s: 186.63228562370335  reg_loss: 0.0037  temp: 0.2610  loss: 1.0133 (1.0721)  acc1: 81.2500 (82.6605)  acc5: 100.0000 (98.3706)  time: 0.0851  data: 0.0003  max mem: 4688
+Epoch: [56]  [512/562]  eta: 0:00:04  lr: 0.00037688457267425233  img/s: 222.59806288974394  reg_loss: 0.0037  temp: 0.2610  loss: 1.2311 (1.0840)  acc1: 81.2500 (82.3709)  acc5: 100.0000 (98.3796)  time: 0.0972  data: 0.0004  max mem: 4688
+Epoch: [56] Total time: 0:00:51
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.2385 (1.2385)  acc1: 50.0000 (50.0000)  acc5: 93.7500 (93.7500)  time: 0.3937  data: 0.3672  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.6, Acc@5 = 97.5, loss = 0.8929011419652
+Training time 0:50:15 max_test_acc1 74.1 test_acc5_at_max_test_acc1 97.4
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [57]  [  0/562]  eta: 0:04:32  lr: 0.00036130908475904124  img/s: 121.21587122108409  reg_loss: 0.0037  temp: 0.2548  loss: 0.9925 (0.9925)  acc1: 87.5000 (87.5000)  acc5: 93.7500 (93.7500)  time: 0.4855  data: 0.3535  max mem: 4688
+Epoch: [57]  [256/562]  eta: 0:00:27  lr: 0.00036130908475904124  img/s: 240.13162198041272  reg_loss: 0.0038  temp: 0.2548  loss: 0.8856 (1.0792)  acc1: 87.5000 (82.7335)  acc5: 100.0000 (97.9086)  time: 0.0829  data: 0.0002  max mem: 4688
+Epoch: [57]  [512/562]  eta: 0:00:04  lr: 0.00036130908475904124  img/s: 161.8563118035792  reg_loss: 0.0038  temp: 0.2548  loss: 0.9914 (1.0861)  acc1: 81.2500 (82.6633)  acc5: 100.0000 (98.2822)  time: 0.0986  data: 0.0003  max mem: 4688
+Epoch: [57] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.0034 (1.0034)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3235  data: 0.2969  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.6, Acc@5 = 97.5, loss = 0.840254667259398
+Training time 0:51:09 max_test_acc1 74.6 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [58]  [  0/562]  eta: 0:04:16  lr: 0.00034588746467493505  img/s: 199.3182612001473  reg_loss: 0.0038  temp: 0.2488  loss: 0.8465 (0.8465)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4563  data: 0.3760  max mem: 4688
+Epoch: [58]  [256/562]  eta: 0:00:28  lr: 0.00034588746467493505  img/s: 229.48614886930594  reg_loss: 0.0038  temp: 0.2488  loss: 0.8162 (1.0783)  acc1: 87.5000 (83.1712)  acc5: 100.0000 (98.6138)  time: 0.0878  data: 0.0002  max mem: 4688
+Epoch: [58]  [512/562]  eta: 0:00:04  lr: 0.00034588746467493505  img/s: 133.8128104356218  reg_loss: 0.0038  temp: 0.2488  loss: 0.9160 (1.0695)  acc1: 81.2500 (83.5283)  acc5: 100.0000 (98.4893)  time: 0.0997  data: 0.0004  max mem: 4688
+Epoch: [58] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:27  loss: 1.2435 (1.2435)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.4309  data: 0.4044  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 73.9, Acc@5 = 97.4, loss = 0.8403808611726004
+Training time 0:52:03 max_test_acc1 74.6 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [59]  [  0/562]  eta: 0:03:32  lr: 0.00033063622627898945  img/s: 176.52980355433033  reg_loss: 0.0038  temp: 0.2429  loss: 0.7810 (0.7810)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.3786  data: 0.2880  max mem: 4688
+Epoch: [59]  [256/562]  eta: 0:00:27  lr: 0.00033063622627898945  img/s: 175.6523641884022  reg_loss: 0.0038  temp: 0.2429  loss: 0.9899 (1.0508)  acc1: 81.2500 (84.6060)  acc5: 100.0000 (98.8327)  time: 0.0893  data: 0.0002  max mem: 4688
+Epoch: [59]  [512/562]  eta: 0:00:04  lr: 0.00033063622627898945  img/s: 219.1216829979462  reg_loss: 0.0037  temp: 0.2429  loss: 0.8214 (1.0548)  acc1: 87.5000 (84.2227)  acc5: 93.7500 (98.5258)  time: 0.0806  data: 0.0002  max mem: 4688
+Epoch: [59] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.0403 (1.0403)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3682  data: 0.3416  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 70.8, Acc@5 = 96.9, loss = 0.9370760335808709
+Training time 0:52:56 max_test_acc1 74.6 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [60]  [  0/562]  eta: 0:04:32  lr: 0.0003155717009792807  img/s: 130.82236435551692  reg_loss: 0.0038  temp: 0.2371  loss: 0.6288 (0.6288)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4849  data: 0.3625  max mem: 4688
+Epoch: [60]  [256/562]  eta: 0:00:28  lr: 0.0003155717009792807  img/s: 224.18119197864715  reg_loss: 0.0038  temp: 0.2371  loss: 0.9222 (1.0594)  acc1: 87.5000 (84.4601)  acc5: 100.0000 (98.5409)  time: 0.0866  data: 0.0002  max mem: 4688
+Epoch: [60]  [512/562]  eta: 0:00:04  lr: 0.0003155717009792807  img/s: 223.6023003671791  reg_loss: 0.0038  temp: 0.2371  loss: 0.8356 (1.0620)  acc1: 87.5000 (84.3811)  acc5: 100.0000 (98.6111)  time: 0.0915  data: 0.0002  max mem: 4688
+Epoch: [60] Total time: 0:00:51
+Test:  [ 0/63]  eta: 0:00:27  loss: 0.9984 (0.9984)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.4388  data: 0.4123  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.5, Acc@5 = 97.2, loss = 0.901271233956019
+Training time 0:53:50 max_test_acc1 74.6 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [61]  [  0/562]  eta: 0:04:27  lr: 0.00030071002024682466  img/s: 214.95540985076826  reg_loss: 0.0038  temp: 0.2315  loss: 0.8688 (0.8688)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4756  data: 0.4011  max mem: 4688
+Epoch: [61]  [256/562]  eta: 0:00:27  lr: 0.00030071002024682466  img/s: 194.28642896019826  reg_loss: 0.0038  temp: 0.2315  loss: 1.1334 (1.0313)  acc1: 81.2500 (84.9951)  acc5: 100.0000 (98.8813)  time: 0.0867  data: 0.0003  max mem: 4688
+Epoch: [61]  [512/562]  eta: 0:00:04  lr: 0.00030071002024682466  img/s: 229.56308045961285  reg_loss: 0.0038  temp: 0.2315  loss: 1.0035 (1.0515)  acc1: 81.2500 (84.0034)  acc5: 100.0000 (98.5867)  time: 0.0901  data: 0.0002  max mem: 4688
+Epoch: [61] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:26  loss: 1.4664 (1.4664)  acc1: 56.2500 (56.2500)  acc5: 87.5000 (87.5000)  time: 0.4235  data: 0.3969  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.7, Acc@5 = 97.2, loss = 0.8364580687549379
+Training time 0:54:44 max_test_acc1 74.7 test_acc5_at_max_test_acc1 97.2
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [62]  [  0/562]  eta: 0:04:19  lr: 0.0002860670983415945  img/s: 157.85938021913915  reg_loss: 0.0038  temp: 0.2260  loss: 0.6223 (0.6223)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4614  data: 0.3600  max mem: 4688
+Epoch: [62]  [256/562]  eta: 0:00:27  lr: 0.0002860670983415945  img/s: 201.38056199061347  reg_loss: 0.0037  temp: 0.2260  loss: 0.9299 (1.0400)  acc1: 81.2500 (84.3628)  acc5: 100.0000 (98.5652)  time: 0.0952  data: 0.0004  max mem: 4688
+Epoch: [62]  [512/562]  eta: 0:00:04  lr: 0.0002860670983415945  img/s: 193.93719692284574  reg_loss: 0.0037  temp: 0.2260  loss: 0.8681 (1.0498)  acc1: 87.5000 (84.2958)  acc5: 100.0000 (98.6477)  time: 0.0986  data: 0.0004  max mem: 4688
+Epoch: [62] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:19  loss: 1.1710 (1.1710)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3155  data: 0.2838  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.8, Acc@5 = 98.1, loss = 0.8510685870571743
+Training time 0:55:38 max_test_acc1 74.7 test_acc5_at_max_test_acc1 97.2
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [63]  [  0/562]  eta: 0:04:47  lr: 0.00027165861527113117  img/s: 128.61598728958924  reg_loss: 0.0037  temp: 0.2207  loss: 1.0114 (1.0114)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.5122  data: 0.3878  max mem: 4688
+Epoch: [63]  [256/562]  eta: 0:00:27  lr: 0.00027165861527113117  img/s: 187.93473841035492  reg_loss: 0.0038  temp: 0.2207  loss: 0.8801 (0.9937)  acc1: 87.5000 (86.1625)  acc5: 100.0000 (99.0759)  time: 0.0963  data: 0.0003  max mem: 4688
+Epoch: [63]  [512/562]  eta: 0:00:04  lr: 0.00027165861527113117  img/s: 225.68904762385193  reg_loss: 0.0037  temp: 0.2207  loss: 0.7840 (1.0118)  acc1: 87.5000 (86.0015)  acc5: 100.0000 (98.9035)  time: 0.0825  data: 0.0002  max mem: 4688
+Epoch: [63] Total time: 0:00:50
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.4804 (1.4804)  acc1: 56.2500 (56.2500)  acc5: 87.5000 (87.5000)  time: 0.3607  data: 0.3342  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 73.6, Acc@5 = 97.5, loss = 0.8443603312212323
+Training time 0:56:31 max_test_acc1 74.7 test_acc5_at_max_test_acc1 97.2
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [64]  [  0/562]  eta: 0:04:04  lr: 0.00025750000000000013  img/s: 183.07044143883635  reg_loss: 0.0038  temp: 0.2154  loss: 0.7238 (0.7238)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4352  data: 0.3478  max mem: 4688
+Epoch: [64]  [256/562]  eta: 0:00:27  lr: 0.00025750000000000013  img/s: 110.34339062977858  reg_loss: 0.0038  temp: 0.2154  loss: 0.9455 (1.0207)  acc1: 87.5000 (85.1654)  acc5: 100.0000 (98.3220)  time: 0.0916  data: 0.0005  max mem: 4688
+Epoch: [64]  [512/562]  eta: 0:00:04  lr: 0.00025750000000000013  img/s: 155.29893758085007  reg_loss: 0.0038  temp: 0.2154  loss: 0.8748 (1.0346)  acc1: 87.5000 (84.9050)  acc5: 100.0000 (98.3431)  time: 0.0859  data: 0.0004  max mem: 4688
+Epoch: [64] Total time: 0:00:49
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.1758 (1.1758)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3977  data: 0.3713  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.3, Acc@5 = 96.6, loss = 0.8983650732608068
+Training time 0:57:24 max_test_acc1 74.7 test_acc5_at_max_test_acc1 97.2
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [65]  [  0/562]  eta: 0:03:41  lr: 0.00024360641392806785  img/s: 212.86966230833158  reg_loss: 0.0038  temp: 0.2103  loss: 1.0282 (1.0282)  acc1: 75.0000 (75.0000)  acc5: 100.0000 (100.0000)  time: 0.3944  data: 0.3192  max mem: 4688
+Epoch: [65]  [256/562]  eta: 0:00:26  lr: 0.00024360641392806785  img/s: 173.3738697310089  reg_loss: 0.0038  temp: 0.2103  loss: 0.8718 (1.0223)  acc1: 87.5000 (85.8220)  acc5: 100.0000 (98.7597)  time: 0.0875  data: 0.0003  max mem: 4688
+Epoch: [65]  [512/562]  eta: 0:00:04  lr: 0.00024360641392806785  img/s: 152.47128533810755  reg_loss: 0.0038  temp: 0.2103  loss: 1.0812 (1.0408)  acc1: 87.5000 (85.3679)  acc5: 100.0000 (98.6111)  time: 0.0880  data: 0.0002  max mem: 4688
+Epoch: [65] Total time: 0:00:48
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.4290 (1.4290)  acc1: 62.5000 (62.5000)  acc5: 81.2500 (81.2500)  time: 0.3896  data: 0.3629  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 72.6, Acc@5 = 96.7, loss = 0.8837575718523965
+Training time 0:58:16 max_test_acc1 74.7 test_acc5_at_max_test_acc1 97.2
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+---------------------------------------------------------
+Epoch 66: Transitioning to FINE-TUNING Phase
+Permanently removing Gating Layers & Cleaning Optimizer...
+---------------------------------------------------------
+Removed gating from 8 layers.
+Optimizer cleaned. Removed 16 expired params.
+Epoch: [66]  [  0/562]  eta: 0:03:59  lr: 0.00022999273465529687  img/s: 222.39520140511343  reg_loss: 0.0000  temp: 0.2054  loss: 0.9757 (0.9757)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4264  data: 0.3545  max mem: 4688
+Epoch: [66]  [256/562]  eta: 0:00:20  lr: 0.00022999273465529687  img/s: 322.2684703633805  reg_loss: 0.0000  temp: 0.2054  loss: 0.8713 (1.0564)  acc1: 93.7500 (85.4572)  acc5: 100.0000 (98.6625)  time: 0.0633  data: 0.0002  max mem: 4688
+Epoch: [66]  [512/562]  eta: 0:00:03  lr: 0.00022999273465529687  img/s: 298.362397965535  reg_loss: 0.0000  temp: 0.2054  loss: 0.8398 (1.0893)  acc1: 87.5000 (84.8684)  acc5: 100.0000 (98.4284)  time: 0.0565  data: 0.0003  max mem: 4688
+Epoch: [66] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:24  loss: 0.9772 (0.9772)  acc1: 75.0000 (75.0000)  acc5: 93.7500 (93.7500)  time: 0.3832  data: 0.3566  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.2, Acc@5 = 97.8, loss = 0.8128860332663097
+Training time 0:58:56 max_test_acc1 75.2 test_acc5_at_max_test_acc1 97.8
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [67]  [  0/562]  eta: 0:03:53  lr: 0.00021667354005043798  img/s: 168.01704484285847  reg_loss: 0.0000  temp: 0.2005  loss: 0.6046 (0.6046)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4148  data: 0.3196  max mem: 4688
+Epoch: [67]  [256/562]  eta: 0:00:20  lr: 0.00021667354005043798  img/s: 170.84088947723484  reg_loss: 0.0000  temp: 0.2005  loss: 1.0400 (1.0385)  acc1: 87.5000 (86.8191)  acc5: 100.0000 (99.0759)  time: 0.0733  data: 0.0004  max mem: 4688
+Epoch: [67]  [512/562]  eta: 0:00:03  lr: 0.00021667354005043798  img/s: 326.8532909925092  reg_loss: 0.0000  temp: 0.2005  loss: 0.8130 (1.0208)  acc1: 93.7500 (87.2807)  acc5: 100.0000 (98.9888)  time: 0.0729  data: 0.0005  max mem: 4688
+Epoch: [67] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.1805 (1.1805)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.4003  data: 0.3749  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 75.4, Acc@5 = 97.0, loss = 0.814367662819605
+Training time 0:59:37 max_test_acc1 75.4 test_acc5_at_max_test_acc1 97.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [68]  [  0/562]  eta: 0:03:28  lr: 0.00020366309264068327  img/s: 204.51290302919486  reg_loss: 0.0000  temp: 0.1957  loss: 0.7614 (0.7614)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.3714  data: 0.2931  max mem: 4688
+Epoch: [68]  [256/562]  eta: 0:00:20  lr: 0.00020366309264068327  img/s: 165.8241409047218  reg_loss: 0.0000  temp: 0.1957  loss: 1.0643 (1.0108)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (99.0759)  time: 0.0683  data: 0.0003  max mem: 4688
+Epoch: [68]  [512/562]  eta: 0:00:03  lr: 0.00020366309264068327  img/s: 317.4076470476947  reg_loss: 0.0000  temp: 0.1957  loss: 1.2642 (1.0207)  acc1: 87.5000 (87.3660)  acc5: 100.0000 (99.0984)  time: 0.0704  data: 0.0003  max mem: 4688
+Epoch: [68] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.1570 (1.1570)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.4003  data: 0.3749  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.4, Acc@5 = 97.9, loss = 0.7806481122970581
+Training time 1:00:18 max_test_acc1 75.4 test_acc5_at_max_test_acc1 97.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [69]  [  0/562]  eta: 0:03:42  lr: 0.00019097532433899554  img/s: 212.1388867814784  reg_loss: 0.0000  temp: 0.1911  loss: 1.5536 (1.5536)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.3958  data: 0.3204  max mem: 4688
+Epoch: [69]  [256/562]  eta: 0:00:19  lr: 0.00019097532433899554  img/s: 310.8186929739243  reg_loss: 0.0000  temp: 0.1911  loss: 0.7452 (0.9930)  acc1: 87.5000 (88.5944)  acc5: 100.0000 (98.9300)  time: 0.0582  data: 0.0002  max mem: 4688
+Epoch: [69]  [512/562]  eta: 0:00:03  lr: 0.00019097532433899554  img/s: 229.70294535434957  reg_loss: 0.0000  temp: 0.1911  loss: 1.0697 (0.9781)  acc1: 87.5000 (88.2554)  acc5: 100.0000 (98.9888)  time: 0.0691  data: 0.0002  max mem: 4688
+Epoch: [69] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.3334 (1.3334)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3592  data: 0.3339  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.4, Acc@5 = 97.8, loss = 0.7852671960043529
+Training time 1:00:58 max_test_acc1 75.4 test_acc5_at_max_test_acc1 97.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [70]  [  0/562]  eta: 0:04:04  lr: 0.00017862382152546591  img/s: 162.97697009731183  reg_loss: 0.0000  temp: 0.1866  loss: 0.6947 (0.6947)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4350  data: 0.3369  max mem: 4688
+Epoch: [70]  [256/562]  eta: 0:00:21  lr: 0.00017862382152546591  img/s: 298.5668194154024  reg_loss: 0.0000  temp: 0.1866  loss: 0.8105 (1.0202)  acc1: 93.7500 (87.0866)  acc5: 100.0000 (98.8327)  time: 0.0655  data: 0.0004  max mem: 4688
+Epoch: [70]  [512/562]  eta: 0:00:03  lr: 0.00017862382152546591  img/s: 211.88570418221659  reg_loss: 0.0000  temp: 0.1866  loss: 0.7900 (1.0084)  acc1: 93.7500 (87.6827)  acc5: 100.0000 (98.9035)  time: 0.0740  data: 0.0003  max mem: 4688
+Epoch: [70] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:26  loss: 0.9308 (0.9308)  acc1: 75.0000 (75.0000)  acc5: 93.7500 (93.7500)  time: 0.4217  data: 0.3964  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 72.7, Acc@5 = 97.3, loss = 0.8808879000799996
+Training time 1:01:40 max_test_acc1 75.4 test_acc5_at_max_test_acc1 97.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [71]  [  0/562]  eta: 0:03:53  lr: 0.00016662181049867869  img/s: 199.53516528606173  reg_loss: 0.0000  temp: 0.1821  loss: 0.8862 (0.8862)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4158  data: 0.3356  max mem: 4688
+Epoch: [71]  [256/562]  eta: 0:00:21  lr: 0.00016662181049867869  img/s: 326.9010560773158  reg_loss: 0.0000  temp: 0.1821  loss: 0.8314 (0.9682)  acc1: 93.7500 (90.1751)  acc5: 100.0000 (99.4407)  time: 0.0704  data: 0.0003  max mem: 4688
+Epoch: [71]  [512/562]  eta: 0:00:03  lr: 0.00016662181049867869  img/s: 284.9572790386616  reg_loss: 0.0000  temp: 0.1821  loss: 0.7237 (0.9707)  acc1: 93.7500 (89.4859)  acc5: 100.0000 (99.2568)  time: 0.0676  data: 0.0004  max mem: 4688
+Epoch: [71] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.1809 (1.1809)  acc1: 62.5000 (62.5000)  acc5: 100.0000 (100.0000)  time: 0.3629  data: 0.3375  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 69.9, Acc@5 = 96.9, loss = 0.93773339097462
+Training time 1:02:22 max_test_acc1 75.4 test_acc5_at_max_test_acc1 97.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [72]  [  0/562]  eta: 0:04:38  lr: 0.000154982143312659  img/s: 105.33208814079674  reg_loss: 0.0000  temp: 0.1778  loss: 0.6521 (0.6521)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4950  data: 0.3430  max mem: 4688
+Epoch: [72]  [256/562]  eta: 0:00:23  lr: 0.000154982143312659  img/s: 311.78476219679334  reg_loss: 0.0000  temp: 0.1778  loss: 0.7370 (0.9846)  acc1: 93.7500 (88.9105)  acc5: 100.0000 (98.7597)  time: 0.0758  data: 0.0003  max mem: 4688
+Epoch: [72]  [512/562]  eta: 0:00:03  lr: 0.000154982143312659  img/s: 339.00556683740996  reg_loss: 0.0000  temp: 0.1778  loss: 0.8275 (1.0003)  acc1: 87.5000 (87.9264)  acc5: 100.0000 (98.7329)  time: 0.0521  data: 0.0002  max mem: 4688
+Epoch: [72] Total time: 0:00:39
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.2011 (1.2011)  acc1: 56.2500 (56.2500)  acc5: 93.7500 (93.7500)  time: 0.3192  data: 0.2938  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.1, Acc@5 = 97.9, loss = 0.7411748528007477
+Training time 1:03:05 max_test_acc1 76.1 test_acc5_at_max_test_acc1 97.9
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [73]  [  0/562]  eta: 0:04:31  lr: 0.00014371728401457148  img/s: 128.84934873433275  reg_loss: 0.0000  temp: 0.1736  loss: 0.7264 (0.7264)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4839  data: 0.3597  max mem: 4688
+Epoch: [73]  [256/562]  eta: 0:00:21  lr: 0.00014371728401457148  img/s: 183.4051570762903  reg_loss: 0.0000  temp: 0.1736  loss: 0.7549 (0.9755)  acc1: 93.7500 (88.4971)  acc5: 100.0000 (98.8327)  time: 0.0708  data: 0.0010  max mem: 4688
+Epoch: [73]  [512/562]  eta: 0:00:03  lr: 0.00014371728401457148  img/s: 324.99970458474786  reg_loss: 0.0000  temp: 0.1736  loss: 0.7811 (0.9841)  acc1: 93.7500 (88.8523)  acc5: 100.0000 (98.8548)  time: 0.0492  data: 0.0001  max mem: 4688
+Epoch: [73] Total time: 0:00:39
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.1992 (1.1992)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3968  data: 0.3715  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.3, Acc@5 = 98.0, loss = 0.7672654295724536
+Training time 1:03:48 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [74]  [  0/562]  eta: 0:03:35  lr: 0.00013283929529790624  img/s: 254.01838835076404  reg_loss: 0.0000  temp: 0.1695  loss: 0.5926 (0.5926)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3837  data: 0.3207  max mem: 4688
+Epoch: [74]  [256/562]  eta: 0:00:22  lr: 0.00013283929529790624  img/s: 258.80181715810664  reg_loss: 0.0000  temp: 0.1695  loss: 0.7236 (0.9968)  acc1: 93.7500 (89.1780)  acc5: 100.0000 (98.9543)  time: 0.0651  data: 0.0002  max mem: 4688
+Epoch: [74]  [512/562]  eta: 0:00:03  lr: 0.00013283929529790624  img/s: 316.70661079019897  reg_loss: 0.0000  temp: 0.1695  loss: 0.8068 (0.9869)  acc1: 93.7500 (89.9001)  acc5: 100.0000 (99.0984)  time: 0.0500  data: 0.0001  max mem: 4688
+Epoch: [74] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.1320 (1.1320)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3553  data: 0.3300  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.0, Acc@5 = 97.7, loss = 0.7708742736823975
+Training time 1:04:29 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [75]  [  0/562]  eta: 0:04:47  lr: 0.0001223598255854452  img/s: 113.88049388079254  reg_loss: 0.0000  temp: 0.1655  loss: 0.5638 (0.5638)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.5110  data: 0.3705  max mem: 4688
+Epoch: [75]  [256/562]  eta: 0:00:21  lr: 0.0001223598255854452  img/s: 336.15949187012234  reg_loss: 0.0000  temp: 0.1655  loss: 0.6804 (0.6960)  acc1: 93.7500 (94.0661)  acc5: 100.0000 (99.7568)  time: 0.0650  data: 0.0011  max mem: 4688
+Epoch: [75]  [512/562]  eta: 0:00:03  lr: 0.0001223598255854452  img/s: 339.71259352252133  reg_loss: 0.0000  temp: 0.1655  loss: 0.6609 (0.6969)  acc1: 93.7500 (94.0424)  acc5: 100.0000 (99.7076)  time: 0.0491  data: 0.0001  max mem: 4688
+Epoch: [75] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.2996 (1.2996)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3406  data: 0.3152  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.3, Acc@5 = 97.6, loss = 0.7467070744624213
+Training time 1:05:10 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [76]  [  0/562]  eta: 0:03:47  lr: 0.00011229009655583865  img/s: 188.98156053932888  reg_loss: 0.0000  temp: 0.1616  loss: 0.7530 (0.7530)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4051  data: 0.3204  max mem: 4688
+Epoch: [76]  [256/562]  eta: 0:00:22  lr: 0.00011229009655583865  img/s: 144.20353434642095  reg_loss: 0.0000  temp: 0.1616  loss: 0.6945 (0.6938)  acc1: 93.7500 (93.9932)  acc5: 100.0000 (99.9514)  time: 0.0724  data: 0.0004  max mem: 4688
+Epoch: [76]  [512/562]  eta: 0:00:03  lr: 0.00011229009655583865  img/s: 267.07763331224055  reg_loss: 0.0000  temp: 0.1616  loss: 0.6928 (0.6885)  acc1: 93.7500 (94.2130)  acc5: 100.0000 (99.8416)  time: 0.0495  data: 0.0002  max mem: 4688
+Epoch: [76] Total time: 0:00:39
+Test:  [ 0/63]  eta: 0:00:25  loss: 1.5272 (1.5272)  acc1: 43.7500 (43.7500)  acc5: 93.7500 (93.7500)  time: 0.4074  data: 0.3821  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.3, Acc@5 = 97.3, loss = 0.7733812977870306
+Training time 1:05:52 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [77]  [  0/562]  eta: 0:04:07  lr: 0.00010264089112715051  img/s: 165.3624161900702  reg_loss: 0.0000  temp: 0.1577  loss: 0.7931 (0.7931)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4403  data: 0.3435  max mem: 4688
+Epoch: [77]  [256/562]  eta: 0:00:21  lr: 0.00010264089112715051  img/s: 268.57404020474564  reg_loss: 0.0000  temp: 0.1577  loss: 0.6768 (0.6855)  acc1: 93.7500 (94.2121)  acc5: 100.0000 (99.8784)  time: 0.0672  data: 0.0004  max mem: 4688
+Epoch: [77]  [512/562]  eta: 0:00:03  lr: 0.00010264089112715051  img/s: 306.1396104192327  reg_loss: 0.0000  temp: 0.1577  loss: 0.6766 (0.6844)  acc1: 93.7500 (94.1520)  acc5: 100.0000 (99.8173)  time: 0.0501  data: 0.0001  max mem: 4688
+Epoch: [77] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.5478 (1.5478)  acc1: 50.0000 (50.0000)  acc5: 87.5000 (87.5000)  time: 0.3379  data: 0.3125  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.9, Acc@5 = 97.7, loss = 0.7679451798635816
+Training time 1:06:32 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [78]  [  0/562]  eta: 0:04:23  lr: 9.342254191024022e-05  img/s: 109.9548671130911  reg_loss: 0.0000  temp: 0.1540  loss: 0.6237 (0.6237)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4693  data: 0.3237  max mem: 4688
+Epoch: [78]  [256/562]  eta: 0:00:22  lr: 9.342254191024022e-05  img/s: 228.26687710251605  reg_loss: 0.0000  temp: 0.1540  loss: 0.6344 (0.6684)  acc1: 93.7500 (95.2091)  acc5: 100.0000 (99.8054)  time: 0.0629  data: 0.0002  max mem: 4688
+Epoch: [78]  [512/562]  eta: 0:00:03  lr: 9.342254191024022e-05  img/s: 336.3701086166539  reg_loss: 0.0000  temp: 0.1540  loss: 0.6752 (0.6779)  acc1: 93.7500 (94.6272)  acc5: 100.0000 (99.7685)  time: 0.0552  data: 0.0065  max mem: 4688
+Epoch: [78] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.3941 (1.3941)  acc1: 50.0000 (50.0000)  acc5: 93.7500 (93.7500)  time: 0.3568  data: 0.3314  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.1, Acc@5 = 97.9, loss = 0.765255940338922
+Training time 1:07:13 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [79]  [  0/562]  eta: 0:04:13  lr: 8.46449201443435e-05  img/s: 304.39138382266896  reg_loss: 0.0000  temp: 0.1503  loss: 0.5920 (0.5920)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4513  data: 0.3987  max mem: 4688
+Epoch: [79]  [256/562]  eta: 0:00:21  lr: 8.46449201443435e-05  img/s: 142.69646665575144  reg_loss: 0.0000  temp: 0.1503  loss: 0.6724 (0.6621)  acc1: 93.7500 (95.2821)  acc5: 100.0000 (99.8298)  time: 0.0719  data: 0.0002  max mem: 4688
+Epoch: [79]  [512/562]  eta: 0:00:03  lr: 8.46449201443435e-05  img/s: 330.3154267938533  reg_loss: 0.0000  temp: 0.1503  loss: 0.6689 (0.6689)  acc1: 93.7500 (95.1389)  acc5: 100.0000 (99.8538)  time: 0.0491  data: 0.0002  max mem: 4688
+Epoch: [79] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.4119 (1.4119)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3605  data: 0.3351  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.8, Acc@5 = 98.0, loss = 0.7288062331222352
+Training time 1:07:54 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [80]  [  0/562]  eta: 0:03:00  lr: 7.631742512670284e-05  img/s: 289.04805058318834  reg_loss: 0.0000  temp: 0.1468  loss: 0.5743 (0.5743)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3210  data: 0.2656  max mem: 4688
+Epoch: [80]  [256/562]  eta: 0:00:22  lr: 7.631742512670284e-05  img/s: 257.44166705028465  reg_loss: 0.0000  temp: 0.1468  loss: 0.6790 (0.6571)  acc1: 93.7500 (95.8171)  acc5: 100.0000 (99.9027)  time: 0.0768  data: 0.0027  max mem: 4688
+Epoch: [80]  [512/562]  eta: 0:00:03  lr: 7.631742512670284e-05  img/s: 326.24471441558376  reg_loss: 0.0000  temp: 0.1468  loss: 0.6602 (0.6618)  acc1: 100.0000 (95.7115)  acc5: 100.0000 (99.8416)  time: 0.0492  data: 0.0001  max mem: 4688
+Epoch: [80] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.3436 (1.3436)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3850  data: 0.3597  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.1, Acc@5 = 97.6, loss = 0.7496251000298394
+Training time 1:08:36 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [81]  [  0/562]  eta: 0:03:22  lr: 6.844897414756431e-05  img/s: 249.55975441506234  reg_loss: 0.0000  temp: 0.1433  loss: 0.7770 (0.7770)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.3611  data: 0.2970  max mem: 4688
+Epoch: [81]  [256/562]  eta: 0:00:21  lr: 6.844897414756431e-05  img/s: 271.29600103491214  reg_loss: 0.0000  temp: 0.1433  loss: 0.6674 (0.6645)  acc1: 93.7500 (95.1605)  acc5: 100.0000 (99.8541)  time: 0.0712  data: 0.0002  max mem: 4688
+Epoch: [81]  [512/562]  eta: 0:00:03  lr: 6.844897414756431e-05  img/s: 335.34143842975  reg_loss: 0.0000  temp: 0.1433  loss: 0.7018 (0.6637)  acc1: 93.7500 (95.2973)  acc5: 100.0000 (99.7563)  time: 0.0489  data: 0.0002  max mem: 4688
+Epoch: [81] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2669 (1.2669)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3535  data: 0.3281  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 74.9, Acc@5 = 97.4, loss = 0.7707181497225686
+Training time 1:09:16 max_test_acc1 76.3 test_acc5_at_max_test_acc1 98.0
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [82]  [  0/562]  eta: 0:04:00  lr: 6.104799294131938e-05  img/s: 193.80445951292484  reg_loss: 0.0000  temp: 0.1399  loss: 0.6425 (0.6425)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4280  data: 0.3454  max mem: 4688
+Epoch: [82]  [256/562]  eta: 0:00:21  lr: 6.104799294131938e-05  img/s: 174.48185992335252  reg_loss: 0.0000  temp: 0.1399  loss: 0.6054 (0.6627)  acc1: 100.0000 (95.4767)  acc5: 100.0000 (99.7811)  time: 0.0712  data: 0.0010  max mem: 4688
+Epoch: [82]  [512/562]  eta: 0:00:03  lr: 6.104799294131938e-05  img/s: 321.9824204506199  reg_loss: 0.0000  temp: 0.1399  loss: 0.6086 (0.6589)  acc1: 100.0000 (95.6506)  acc5: 100.0000 (99.8416)  time: 0.0496  data: 0.0001  max mem: 4688
+Epoch: [82] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.4307 (1.4307)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3520  data: 0.3266  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 77.0, Acc@5 = 97.5, loss = 0.7418507297360708
+Training time 1:09:56 max_test_acc1 77.0 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [83]  [  0/562]  eta: 0:03:47  lr: 5.4122406664017925e-05  img/s: 172.5682634622753  reg_loss: 0.0000  temp: 0.1366  loss: 0.5915 (0.5915)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4053  data: 0.3126  max mem: 4688
+Epoch: [83]  [256/562]  eta: 0:00:21  lr: 5.4122406664017925e-05  img/s: 304.0287044923255  reg_loss: 0.0000  temp: 0.1366  loss: 0.6369 (0.6526)  acc1: 100.0000 (96.2305)  acc5: 100.0000 (99.9027)  time: 0.0720  data: 0.0005  max mem: 4688
+Epoch: [83]  [512/562]  eta: 0:00:03  lr: 5.4122406664017925e-05  img/s: 224.85647273263373  reg_loss: 0.0000  temp: 0.1366  loss: 0.6058 (0.6528)  acc1: 100.0000 (96.0404)  acc5: 100.0000 (99.8538)  time: 0.0614  data: 0.0002  max mem: 4688
+Epoch: [83] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2584 (1.2584)  acc1: 68.7500 (68.7500)  acc5: 87.5000 (87.5000)  time: 0.3505  data: 0.3251  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 75.3, Acc@5 = 97.2, loss = 0.769941820984795
+Training time 1:10:36 max_test_acc1 77.0 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [84]  [  0/562]  eta: 0:04:09  lr: 4.7679631406913064e-05  img/s: 164.7902798854724  reg_loss: 0.0000  temp: 0.1334  loss: 0.6257 (0.6257)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4443  data: 0.3472  max mem: 4688
+Epoch: [84]  [256/562]  eta: 0:00:21  lr: 4.7679631406913064e-05  img/s: 329.3605752006086  reg_loss: 0.0000  temp: 0.1334  loss: 0.6172 (0.6410)  acc1: 100.0000 (96.4494)  acc5: 100.0000 (99.9757)  time: 0.0607  data: 0.0004  max mem: 4688
+Epoch: [84]  [512/562]  eta: 0:00:03  lr: 4.7679631406913064e-05  img/s: 240.42498369911797  reg_loss: 0.0000  temp: 0.1334  loss: 0.6341 (0.6479)  acc1: 93.7500 (96.2841)  acc5: 100.0000 (99.9391)  time: 0.0661  data: 0.0005  max mem: 4688
+Epoch: [84] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2457 (1.2457)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3512  data: 0.3257  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 75.1, Acc@5 = 97.3, loss = 0.7873294637316749
+Training time 1:11:16 max_test_acc1 77.0 test_acc5_at_max_test_acc1 97.5
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [85]  [  0/562]  eta: 0:03:05  lr: 4.172656625512375e-05  img/s: 298.7861534694241  reg_loss: 0.0000  temp: 0.1302  loss: 0.6955 (0.6955)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.3305  data: 0.2769  max mem: 4688
+Epoch: [85]  [256/562]  eta: 0:00:20  lr: 4.172656625512375e-05  img/s: 333.6757358790772  reg_loss: 0.0000  temp: 0.1302  loss: 0.6421 (0.6592)  acc1: 93.7500 (95.4037)  acc5: 100.0000 (99.8054)  time: 0.0646  data: 0.0002  max mem: 4688
+Epoch: [85]  [512/562]  eta: 0:00:03  lr: 4.172656625512375e-05  img/s: 236.00049233539295  reg_loss: 0.0000  temp: 0.1302  loss: 0.6072 (0.6558)  acc1: 100.0000 (95.7846)  acc5: 100.0000 (99.8416)  time: 0.0740  data: 0.0029  max mem: 4688
+Epoch: [85] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.3952 (1.3952)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3431  data: 0.3177  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 77.7, Acc@5 = 97.3, loss = 0.7462466106055274
+Training time 1:11:57 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [86]  [  0/562]  eta: 0:03:06  lr: 3.626958589992274e-05  img/s: 272.6030108295623  reg_loss: 0.0000  temp: 0.1271  loss: 0.6057 (0.6057)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3323  data: 0.2736  max mem: 4688
+Epoch: [86]  [256/562]  eta: 0:00:19  lr: 3.626958589992274e-05  img/s: 277.6592978754215  reg_loss: 0.0000  temp: 0.1271  loss: 0.6534 (0.6580)  acc1: 93.7500 (95.5010)  acc5: 100.0000 (99.8541)  time: 0.0617  data: 0.0002  max mem: 4688
+Epoch: [86]  [512/562]  eta: 0:00:03  lr: 3.626958589992274e-05  img/s: 237.683069708797  reg_loss: 0.0000  temp: 0.1271  loss: 0.6369 (0.6535)  acc1: 93.7500 (95.7846)  acc5: 100.0000 (99.8782)  time: 0.0674  data: 0.0005  max mem: 4688
+Epoch: [86] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.3202 (1.3202)  acc1: 68.7500 (68.7500)  acc5: 87.5000 (87.5000)  time: 0.3828  data: 0.3575  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.9, Acc@5 = 97.3, loss = 0.7482946276191681
+Training time 1:12:37 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [87]  [  0/562]  eta: 0:03:22  lr: 3.131453381255669e-05  img/s: 189.52648360431195  reg_loss: 0.0000  temp: 0.1241  loss: 0.6188 (0.6188)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3601  data: 0.2757  max mem: 4688
+Epoch: [87]  [256/562]  eta: 0:00:18  lr: 3.131453381255669e-05  img/s: 221.51649106129022  reg_loss: 0.0000  temp: 0.1241  loss: 0.6278 (0.6463)  acc1: 100.0000 (96.0603)  acc5: 100.0000 (99.8541)  time: 0.0667  data: 0.0002  max mem: 4688
+Epoch: [87]  [512/562]  eta: 0:00:03  lr: 3.131453381255669e-05  img/s: 194.24818802825055  reg_loss: 0.0000  temp: 0.1241  loss: 0.6225 (0.6471)  acc1: 100.0000 (96.0039)  acc5: 100.0000 (99.8904)  time: 0.0682  data: 0.0002  max mem: 4688
+Epoch: [87] Total time: 0:00:35
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.1263 (1.1263)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3183  data: 0.2930  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 77.1, Acc@5 = 97.7, loss = 0.7301478591703233
+Training time 1:13:16 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [88]  [  0/562]  eta: 0:03:38  lr: 2.6866715986911242e-05  img/s: 184.81384461163927  reg_loss: 0.0000  temp: 0.1212  loss: 0.6610 (0.6610)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3894  data: 0.3028  max mem: 4688
+Epoch: [88]  [256/562]  eta: 0:00:18  lr: 2.6866715986911242e-05  img/s: 321.3071980542176  reg_loss: 0.0000  temp: 0.1212  loss: 0.6123 (0.6549)  acc1: 100.0000 (95.9630)  acc5: 100.0000 (99.9514)  time: 0.0563  data: 0.0003  max mem: 4688
+Epoch: [88]  [512/562]  eta: 0:00:03  lr: 2.6866715986911242e-05  img/s: 323.5378310883127  reg_loss: 0.0000  temp: 0.1212  loss: 0.6078 (0.6512)  acc1: 100.0000 (95.9552)  acc5: 100.0000 (99.8660)  time: 0.0649  data: 0.0002  max mem: 4688
+Epoch: [88] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.1464 (1.1464)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3754  data: 0.3500  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.1, Acc@5 = 97.0, loss = 0.7562489062547684
+Training time 1:13:56 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [89]  [  0/562]  eta: 0:03:42  lr: 2.293089525771985e-05  img/s: 198.52461557576368  reg_loss: 0.0000  temp: 0.1183  loss: 0.6590 (0.6590)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3954  data: 0.3148  max mem: 4688
+Epoch: [89]  [256/562]  eta: 0:00:19  lr: 2.293089525771985e-05  img/s: 328.3389223490501  reg_loss: 0.0000  temp: 0.1183  loss: 0.6268 (0.6419)  acc1: 93.7500 (96.4251)  acc5: 100.0000 (99.8784)  time: 0.0560  data: 0.0002  max mem: 4688
+Epoch: [89]  [512/562]  eta: 0:00:03  lr: 2.293089525771985e-05  img/s: 225.23002983652003  reg_loss: 0.0000  temp: 0.1183  loss: 0.6285 (0.6458)  acc1: 100.0000 (96.2476)  acc5: 100.0000 (99.9147)  time: 0.0621  data: 0.0015  max mem: 4688
+Epoch: [89] Total time: 0:00:35
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.0995 (1.0995)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3288  data: 0.3034  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 75.8, Acc@5 = 98.1, loss = 0.7517235300370625
+Training time 1:14:34 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [90]  [  0/562]  eta: 0:03:54  lr: 1.9511286200400937e-05  img/s: 210.8273140817814  reg_loss: 0.0000  temp: 0.1155  loss: 0.5575 (0.5575)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4166  data: 0.3407  max mem: 4688
+Epoch: [90]  [256/562]  eta: 0:00:18  lr: 1.9511286200400937e-05  img/s: 295.5178982689606  reg_loss: 0.0000  temp: 0.1155  loss: 0.6173 (0.6456)  acc1: 93.7500 (96.1819)  acc5: 100.0000 (99.8298)  time: 0.0612  data: 0.0002  max mem: 4688
+Epoch: [90]  [512/562]  eta: 0:00:03  lr: 1.9511286200400937e-05  img/s: 268.10943492712863  reg_loss: 0.0000  temp: 0.1155  loss: 0.6170 (0.6394)  acc1: 100.0000 (96.5156)  acc5: 100.0000 (99.8904)  time: 0.0599  data: 0.0002  max mem: 4688
+Epoch: [90] Total time: 0:00:35
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.1709 (1.1709)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3377  data: 0.3123  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.5, Acc@5 = 97.5, loss = 0.7505960289448027
+Training time 1:15:13 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [91]  [  0/562]  eta: 0:03:49  lr: 1.6611550617984906e-05  img/s: 269.892877538709  reg_loss: 0.0000  temp: 0.1127  loss: 0.6275 (0.6275)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4078  data: 0.3485  max mem: 4688
+Epoch: [91]  [256/562]  eta: 0:00:20  lr: 1.6611550617984906e-05  img/s: 330.5578547609314  reg_loss: 0.0000  temp: 0.1127  loss: 0.6185 (0.6420)  acc1: 100.0000 (96.1576)  acc5: 100.0000 (99.8784)  time: 0.0653  data: 0.0008  max mem: 4688
+Epoch: [91]  [512/562]  eta: 0:00:03  lr: 1.6611550617984906e-05  img/s: 236.46367537931374  reg_loss: 0.0000  temp: 0.1127  loss: 0.5955 (0.6401)  acc1: 100.0000 (96.1988)  acc5: 100.0000 (99.8782)  time: 0.0554  data: 0.0002  max mem: 4688
+Epoch: [91] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.0699 (1.0699)  acc1: 75.0000 (75.0000)  acc5: 93.7500 (93.7500)  time: 0.3404  data: 0.3151  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 76.5, Acc@5 = 97.2, loss = 0.7384534288966467
+Training time 1:15:52 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [92]  [  0/562]  eta: 0:03:17  lr: 1.4234793619963862e-05  img/s: 173.690220021689  reg_loss: 0.0000  temp: 0.1101  loss: 0.6488 (0.6488)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3511  data: 0.2589  max mem: 4688
+Epoch: [92]  [256/562]  eta: 0:00:19  lr: 1.4234793619963862e-05  img/s: 293.8255055889526  reg_loss: 0.0000  temp: 0.1101  loss: 0.5924 (0.6359)  acc1: 100.0000 (96.6440)  acc5: 100.0000 (99.8541)  time: 0.0575  data: 0.0017  max mem: 4688
+Epoch: [92]  [512/562]  eta: 0:00:03  lr: 1.4234793619963862e-05  img/s: 332.5810230843187  reg_loss: 0.0000  temp: 0.1101  loss: 0.5997 (0.6375)  acc1: 100.0000 (96.5765)  acc5: 100.0000 (99.8782)  time: 0.0778  data: 0.0003  max mem: 4688
+Epoch: [92] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.2603 (1.2603)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3790  data: 0.3537  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.2, Acc@5 = 97.4, loss = 0.7433960686127344
+Training time 1:16:34 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [93]  [  0/562]  eta: 0:04:17  lr: 1.2383560297262576e-05  img/s: 121.93962696126975  reg_loss: 0.0000  temp: 0.1075  loss: 0.6768 (0.6768)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.4581  data: 0.3269  max mem: 4688
+Epoch: [93]  [256/562]  eta: 0:00:20  lr: 1.2383560297262576e-05  img/s: 338.3543529008415  reg_loss: 0.0000  temp: 0.1075  loss: 0.5944 (0.6392)  acc1: 100.0000 (96.6683)  acc5: 100.0000 (99.8784)  time: 0.0515  data: 0.0040  max mem: 4688
+Epoch: [93]  [512/562]  eta: 0:00:03  lr: 1.2383560297262576e-05  img/s: 282.9233973305003  reg_loss: 0.0000  temp: 0.1075  loss: 0.6420 (0.6429)  acc1: 93.7500 (96.2110)  acc5: 100.0000 (99.8782)  time: 0.0616  data: 0.0003  max mem: 4688
+Epoch: [93] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:23  loss: 1.1872 (1.1872)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3652  data: 0.3398  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.4, Acc@5 = 97.5, loss = 0.7493238382869296
+Training time 1:17:14 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [94]  [  0/562]  eta: 0:04:45  lr: 1.1059832996891278e-05  img/s: 189.73868150447709  reg_loss: 0.0000  temp: 0.1049  loss: 0.6281 (0.6281)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.5071  data: 0.4228  max mem: 4688
+Epoch: [94]  [256/562]  eta: 0:00:20  lr: 1.1059832996891278e-05  img/s: 288.4541758005588  reg_loss: 0.0000  temp: 0.1049  loss: 0.6363 (0.6360)  acc1: 93.7500 (96.9115)  acc5: 100.0000 (99.9514)  time: 0.0553  data: 0.0002  max mem: 4688
+Epoch: [94]  [512/562]  eta: 0:00:03  lr: 1.1059832996891278e-05  img/s: 199.8102321482271  reg_loss: 0.0000  temp: 0.1049  loss: 0.6259 (0.6379)  acc1: 93.7500 (96.5643)  acc5: 100.0000 (99.9513)  time: 0.0753  data: 0.0024  max mem: 4688
+Epoch: [94] Total time: 0:00:35
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.2819 (1.2819)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3260  data: 0.3006  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 75.8, Acc@5 = 97.7, loss = 0.7442058452538082
+Training time 1:17:53 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [95]  [  0/562]  eta: 0:03:50  lr: 1.0265029199198986e-05  img/s: 179.63238844722824  reg_loss: 0.0000  temp: 0.1024  loss: 0.5473 (0.5473)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4107  data: 0.3216  max mem: 4688
+Epoch: [95]  [256/562]  eta: 0:00:20  lr: 1.0265029199198986e-05  img/s: 329.9289296179033  reg_loss: 0.0000  temp: 0.1024  loss: 0.6445 (0.6416)  acc1: 93.7500 (96.3035)  acc5: 100.0000 (99.8541)  time: 0.0729  data: 0.0010  max mem: 4688
+Epoch: [95]  [512/562]  eta: 0:00:03  lr: 1.0265029199198986e-05  img/s: 333.2763742730717  reg_loss: 0.0000  temp: 0.1024  loss: 0.6406 (0.6423)  acc1: 93.7500 (96.2232)  acc5: 100.0000 (99.8538)  time: 0.0648  data: 0.0002  max mem: 4688
+Epoch: [95] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.1681 (1.1681)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3350  data: 0.3097  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.6, Acc@5 = 97.2, loss = 0.7417465718019576
+Training time 1:18:32 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [96]  [  0/562]  eta: 0:03:38  lr: 1e-05  img/s: 168.70213049435011  reg_loss: 0.0000  temp: 0.1000  loss: 0.6288 (0.6288)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3884  data: 0.2935  max mem: 4688
+Epoch: [96]  [256/562]  eta: 0:00:20  lr: 1e-05  img/s: 277.0220308688096  reg_loss: 0.0000  temp: 0.1000  loss: 0.6125 (0.6446)  acc1: 100.0000 (96.3521)  acc5: 100.0000 (99.8784)  time: 0.0711  data: 0.0002  max mem: 4688
+Epoch: [96]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 244.91839200014599  reg_loss: 0.0000  temp: 0.1000  loss: 0.6002 (0.6442)  acc1: 100.0000 (96.1988)  acc5: 100.0000 (99.8904)  time: 0.0595  data: 0.0002  max mem: 4688
+Epoch: [96] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2137 (1.2137)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3523  data: 0.3270  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 76.7, Acc@5 = 97.6, loss = 0.7539798193980777
+Training time 1:19:12 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [97]  [  0/562]  eta: 0:04:07  lr: 1e-05  img/s: 178.83917526322662  reg_loss: 0.0000  temp: 0.1000  loss: 0.6795 (0.6795)  acc1: 87.5000 (87.5000)  acc5: 100.0000 (100.0000)  time: 0.4410  data: 0.3515  max mem: 4688
+Epoch: [97]  [256/562]  eta: 0:00:20  lr: 1e-05  img/s: 324.60355710768545  reg_loss: 0.0000  temp: 0.1000  loss: 0.6054 (0.6395)  acc1: 100.0000 (96.5467)  acc5: 100.0000 (99.8541)  time: 0.0547  data: 0.0002  max mem: 4688
+Epoch: [97]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 232.843065072949  reg_loss: 0.0000  temp: 0.1000  loss: 0.6346 (0.6392)  acc1: 100.0000 (96.3694)  acc5: 100.0000 (99.8782)  time: 0.0662  data: 0.0002  max mem: 4688
+Epoch: [97] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.3411 (1.3411)  acc1: 62.5000 (62.5000)  acc5: 87.5000 (87.5000)  time: 0.3518  data: 0.3264  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 75.8, Acc@5 = 97.3, loss = 0.7483160552524385
+Training time 1:19:51 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [98]  [  0/562]  eta: 0:03:54  lr: 1e-05  img/s: 169.25824741227981  reg_loss: 0.0000  temp: 0.1000  loss: 0.5894 (0.5894)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4175  data: 0.3230  max mem: 4688
+Epoch: [98]  [256/562]  eta: 0:00:21  lr: 1e-05  img/s: 214.4937178581588  reg_loss: 0.0000  temp: 0.1000  loss: 0.6165 (0.6429)  acc1: 100.0000 (96.1819)  acc5: 100.0000 (99.9027)  time: 0.0614  data: 0.0002  max mem: 4688
+Epoch: [98]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 288.8925126024012  reg_loss: 0.0000  temp: 0.1000  loss: 0.6404 (0.6431)  acc1: 93.7500 (96.1623)  acc5: 100.0000 (99.8538)  time: 0.0723  data: 0.0004  max mem: 4688
+Epoch: [98] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.2390 (1.2390)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3287  data: 0.3034  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 77.6, Acc@5 = 97.4, loss = 0.7416554244737776
+Training time 1:20:32 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [99]  [  0/562]  eta: 0:03:16  lr: 1e-05  img/s: 215.87714320639762  reg_loss: 0.0000  temp: 0.1000  loss: 0.5753 (0.5753)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.3495  data: 0.2754  max mem: 4688
+Epoch: [99]  [256/562]  eta: 0:00:20  lr: 1e-05  img/s: 242.28251247355462  reg_loss: 0.0000  temp: 0.1000  loss: 0.6163 (0.6404)  acc1: 93.7500 (96.6196)  acc5: 100.0000 (99.8054)  time: 0.0591  data: 0.0002  max mem: 4688
+Epoch: [99]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 256.87406794971906  reg_loss: 0.0000  temp: 0.1000  loss: 0.5913 (0.6395)  acc1: 100.0000 (96.6131)  acc5: 100.0000 (99.8416)  time: 0.0668  data: 0.0033  max mem: 4688
+Epoch: [99] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2383 (1.2383)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3573  data: 0.3320  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.9, Acc@5 = 97.6, loss = 0.7615945970728284
+Training time 1:21:12 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [100]  [  0/562]  eta: 0:03:34  lr: 1e-05  img/s: 215.9153440515297  reg_loss: 0.0000  temp: 0.1000  loss: 0.7752 (0.7752)  acc1: 81.2500 (81.2500)  acc5: 100.0000 (100.0000)  time: 0.3822  data: 0.3080  max mem: 4688
+Epoch: [100]  [256/562]  eta: 0:00:20  lr: 1e-05  img/s: 221.02184896090637  reg_loss: 0.0000  temp: 0.1000  loss: 0.6002 (0.6350)  acc1: 100.0000 (96.6440)  acc5: 100.0000 (99.8784)  time: 0.0677  data: 0.0003  max mem: 4688
+Epoch: [100]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 246.76640448901097  reg_loss: 0.0000  temp: 0.1000  loss: 0.5866 (0.6357)  acc1: 100.0000 (96.5521)  acc5: 100.0000 (99.9269)  time: 0.0641  data: 0.0002  max mem: 4688
+Epoch: [100] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.1819 (1.1819)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3547  data: 0.3293  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 77.6, Acc@5 = 97.5, loss = 0.7294610700910054
+Training time 1:21:51 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [101]  [  0/562]  eta: 0:04:07  lr: 1e-05  img/s: 168.0267204815295  reg_loss: 0.0000  temp: 0.1000  loss: 0.5447 (0.5447)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4407  data: 0.3454  max mem: 4688
+Epoch: [101]  [256/562]  eta: 0:00:22  lr: 1e-05  img/s: 283.46475743943904  reg_loss: 0.0000  temp: 0.1000  loss: 0.6247 (0.6356)  acc1: 100.0000 (96.4981)  acc5: 100.0000 (99.9270)  time: 0.0717  data: 0.0003  max mem: 4688
+Epoch: [101]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 323.4427109690914  reg_loss: 0.0000  temp: 0.1000  loss: 0.6072 (0.6361)  acc1: 100.0000 (96.4912)  acc5: 100.0000 (99.9147)  time: 0.0809  data: 0.0125  max mem: 4688
+Epoch: [101] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:24  loss: 1.3727 (1.3727)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3811  data: 0.3558  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 77.2, Acc@5 = 97.2, loss = 0.7396097838405579
+Training time 1:22:32 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [102]  [  0/562]  eta: 0:03:35  lr: 1e-05  img/s: 296.8354881657459  reg_loss: 0.0000  temp: 0.1000  loss: 0.6816 (0.6816)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3826  data: 0.3287  max mem: 4688
+Epoch: [102]  [256/562]  eta: 0:00:21  lr: 1e-05  img/s: 282.67194588242234  reg_loss: 0.0000  temp: 0.1000  loss: 0.6368 (0.6404)  acc1: 100.0000 (96.4494)  acc5: 100.0000 (99.8541)  time: 0.0698  data: 0.0004  max mem: 4688
+Epoch: [102]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 275.7517001072454  reg_loss: 0.0000  temp: 0.1000  loss: 0.6131 (0.6374)  acc1: 100.0000 (96.4790)  acc5: 100.0000 (99.9025)  time: 0.0582  data: 0.0002  max mem: 4688
+Epoch: [102] Total time: 0:00:37
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.2754 (1.2754)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3455  data: 0.3202  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.5, Acc@5 = 97.8, loss = 0.7379039684458385
+Training time 1:23:12 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [103]  [  0/562]  eta: 0:03:43  lr: 1e-05  img/s: 221.66575501737418  reg_loss: 0.0000  temp: 0.1000  loss: 0.6190 (0.6190)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3970  data: 0.3248  max mem: 4688
+Epoch: [103]  [256/562]  eta: 0:00:20  lr: 1e-05  img/s: 278.81866301051144  reg_loss: 0.0000  temp: 0.1000  loss: 0.5927 (0.6296)  acc1: 100.0000 (96.4494)  acc5: 100.0000 (99.9757)  time: 0.0655  data: 0.0044  max mem: 4688
+Epoch: [103]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 328.90214125730864  reg_loss: 0.0000  temp: 0.1000  loss: 0.6015 (0.6315)  acc1: 100.0000 (96.6374)  acc5: 100.0000 (99.9391)  time: 0.0482  data: 0.0001  max mem: 4688
+Epoch: [103] Total time: 0:00:35
+Test:  [ 0/63]  eta: 0:00:20  loss: 1.4172 (1.4172)  acc1: 56.2500 (56.2500)  acc5: 93.7500 (93.7500)  time: 0.3288  data: 0.3033  max mem: 4688
+Test: Total time: 0:00:03
+ * Acc@1 = 76.0, Acc@5 = 97.3, loss = 0.7744073371092478
+Training time 1:23:51 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [104]  [  0/562]  eta: 0:04:10  lr: 1e-05  img/s: 238.8946937496885  reg_loss: 0.0000  temp: 0.1000  loss: 0.5834 (0.5834)  acc1: 100.0000 (100.0000)  acc5: 100.0000 (100.0000)  time: 0.4465  data: 0.3795  max mem: 4688
+Epoch: [104]  [256/562]  eta: 0:00:21  lr: 1e-05  img/s: 194.04430333995484  reg_loss: 0.0000  temp: 0.1000  loss: 0.6408 (0.6391)  acc1: 100.0000 (96.5710)  acc5: 100.0000 (99.9270)  time: 0.0683  data: 0.0003  max mem: 4688
+Epoch: [104]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 333.0415130295827  reg_loss: 0.0000  temp: 0.1000  loss: 0.5978 (0.6400)  acc1: 100.0000 (96.5765)  acc5: 100.0000 (99.9391)  time: 0.0501  data: 0.0002  max mem: 4688
+Epoch: [104] Total time: 0:00:36
+Test:  [ 0/63]  eta: 0:00:22  loss: 1.2516 (1.2516)  acc1: 68.7500 (68.7500)  acc5: 93.7500 (93.7500)  time: 0.3535  data: 0.3281  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 76.1, Acc@5 = 98.0, loss = 0.7488542473505414
+Training time 1:24:30 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
+Epoch: [105]  [  0/562]  eta: 0:03:35  lr: 1e-05  img/s: 161.92856298333876  reg_loss: 0.0000  temp: 0.1000  loss: 0.7834 (0.7834)  acc1: 93.7500 (93.7500)  acc5: 100.0000 (100.0000)  time: 0.3839  data: 0.2851  max mem: 4688
+Epoch: [105]  [256/562]  eta: 0:00:21  lr: 1e-05  img/s: 231.41546175252506  reg_loss: 0.0000  temp: 0.1000  loss: 0.6267 (0.6380)  acc1: 93.7500 (96.5224)  acc5: 100.0000 (99.9027)  time: 0.0572  data: 0.0002  max mem: 4688
+Epoch: [105]  [512/562]  eta: 0:00:03  lr: 1e-05  img/s: 321.18878715797433  reg_loss: 0.0000  temp: 0.1000  loss: 0.6473 (0.6402)  acc1: 93.7500 (96.1988)  acc5: 100.0000 (99.9025)  time: 0.0634  data: 0.0003  max mem: 4688
+Epoch: [105] Total time: 0:00:38
+Test:  [ 0/63]  eta: 0:00:21  loss: 1.3183 (1.3183)  acc1: 62.5000 (62.5000)  acc5: 93.7500 (93.7500)  time: 0.3491  data: 0.3236  max mem: 4688
+Test: Total time: 0:00:02
+ * Acc@1 = 76.0, Acc@5 = 97.6, loss = 0.7445484636321901
+Training time 1:25:11 max_test_acc1 77.7 test_acc5_at_max_test_acc1 97.3
+/home/Templates/spikformer/CIFAR10DVS/output/hyper_finetune/ID1_Conservative_OneShot_L0.005_I40_T1.0-0.1_Rm0.15_Re0.05/SEWResNet_b16_T16_wd0.06_adamw_cnf_ADD/lr0.001
