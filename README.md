@@ -21,7 +21,7 @@ The core pipeline of Spik4lite contains three stages:
 The following figures provide an overview of the Spik4lite pipeline and module design.
 
 <p align="center">
-  <img src="pic/overview.png" width="90%" alt="Overview of the Spik4lite compression pipeline">
+  <img src="pic/overview.png" width="80%" alt="Overview of the Spik4lite compression pipeline">
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ The following figures provide an overview of the Spik4lite pipeline and module d
 </p>
 
 <p align="center">
-  <img src="pic/model.png" width="90%" alt="Detailed design of the Spik4lite module">
+  <img src="pic/model.png" width="80%" alt="Detailed design of the Spik4lite module">
 </p>
 
 <p align="center">
@@ -200,6 +200,14 @@ python SOPs_consumption_on_cifar10.py
 ```
 
 Please run these scripts from the corresponding dataset directory, following the dedicated README inside each baseline folder.
+
+## Jetson Power Consumption Results
+
+The following figures show real-time power-consumption measurements on an NVIDIA Jetson Orin Nano 8G edge device.
+
+| <img src="pic/power_a.png" width="100%" alt="Real-time power consumption measurement A on NVIDIA Jetson Orin Nano 8G"> | <img src="pic/power_b.png" width="100%" alt="Real-time power consumption measurement B on NVIDIA Jetson Orin Nano 8G"> |
+| :---: | :---: |
+| **(a) Power Consumption On CIFAR** | **(b) Power Consumption On DVS** |
 
 ## Project Structure
 
