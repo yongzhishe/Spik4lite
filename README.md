@@ -43,7 +43,7 @@ The following figures provide an overview of the Spik4lite pipeline and module d
 Clone this repository and enter the project directory:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/yongzhishe/Spik4lite.git
 cd Spik4lite
 ```
 
